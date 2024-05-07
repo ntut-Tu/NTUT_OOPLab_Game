@@ -3,6 +3,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "Avatar", "dir_98926623a54f29d55cfd94bcc9a5ca87.html", "dir_98926623a54f29d55cfd94bcc9a5ca87" ],
     [ "Core", "dir_8213943ce0b792be39d34390845932ae.html", "dir_8213943ce0b792be39d34390845932ae" ],
     [ "Display", "dir_284e174cc7d2e0cee3a5b2b038c9371a.html", "dir_284e174cc7d2e0cee3a5b2b038c9371a" ],
+    [ "Enemy", "dir_79628f61df2a99c562464e30502a8860.html", "dir_79628f61df2a99c562464e30502a8860" ],
     [ "Map", "dir_b037b7dc8ebb877b5f49d5efc0d281bd.html", "dir_b037b7dc8ebb877b5f49d5efc0d281bd" ],
     [ "Mechanics", "dir_8dbac4bee89d633cc537ff4700eb65c4.html", "dir_8dbac4bee89d633cc537ff4700eb65c4" ],
     [ "Scene", "dir_599b8f1f2ff57000baa5ade9aac495d5.html", "dir_599b8f1f2ff57000baa5ade9aac495d5" ],

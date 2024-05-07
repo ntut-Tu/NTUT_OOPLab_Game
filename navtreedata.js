@@ -68,9 +68,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AdvencePowerPlants_8hpp_source.html",
-"classUtil_1_1Color.html#a30108bf67f833902a3b89d2ad3e05f22",
-"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a445c8332e3893da6ae48d720687023e5",
-"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a53ab31991480449e8015582472685e9d"
+"classUtil_1_1BGM.html#aabb24e78da377c58222e7e9eaba5e05f",
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a406279195286957cdc53bb4281d56f99",
+"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a49243ff032a2dfb115a949edc42a1a32"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

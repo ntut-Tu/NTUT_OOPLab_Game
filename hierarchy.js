@@ -36,6 +36,7 @@ var hierarchy =
       [ "Util::SpriteSheetAnimation", "classUtil_1_1SpriteSheetAnimation.html", null ],
       [ "Util::Text", "classUtil_1_1Text.html", null ]
     ] ],
+    [ "EnemyScripts", "classEnemyScripts.html", null ],
     [ "fmt::formatter", null, [
       [ "fmt::formatter< Util::Transform >", "structfmt_1_1formatter_3_01Util_1_1Transform_01_4.html", null ],
       [ "fmt::formatter< glm::mat< C, R, Pre > >", "structfmt_1_1formatter_3_01glm_1_1mat_3_01C_00_01R_00_01Pre_01_4_01_4.html", null ],
@@ -47,6 +48,7 @@ var hierarchy =
       [ "Structure", "classStructure.html", [
         [ "ADVPowerPlants", "classADVPowerPlants.html", null ],
         [ "PowerPlants", "classPowerPlants.html", null ],
+        [ "SandBag", "classSandBag.html", null ],
         [ "WayPointStructure", "classWayPointStructure.html", [
           [ "Barracks", "classBarracks.html", null ],
           [ "OreRefinery", "classOreRefinery.html", null ],
@@ -79,6 +81,7 @@ var hierarchy =
     [ "NemesisManager", "classNemesisManager.html", null ],
     [ "PathUtility", "classPathUtility.html", null ],
     [ "Player", "classPlayer.html", [
+      [ "EnemyPlayer", "classEnemyPlayer.html", null ],
       [ "UnitManager", "classUnitManager.html", null ]
     ] ],
     [ "Core::Program", "classCore_1_1Program.html", null ],
@@ -87,7 +90,8 @@ var hierarchy =
       [ "DefaultScene", "classDefaultScene.html", null ],
       [ "DemoScene", "classDemoScene.html", null ],
       [ "MapScene", "classMapScene.html", null ],
-      [ "MenuScene", "classMenuScene.html", null ]
+      [ "MenuScene", "classMenuScene.html", null ],
+      [ "TutorialScene", "classTutorialScene.html", null ]
     ] ],
     [ "Selectable", "classSelectable.html", [
       [ "Avatar", "classAvatar.html", null ],

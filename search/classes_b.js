@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['orerefinery_0',['OreRefinery',['../classOreRefinery.html',1,'']]]
+  ['nemesismanager_0',['NemesisManager',['../classNemesisManager.html',1,'']]]
 ];

@@ -6,6 +6,7 @@ var dir_f23637a62b38ea92db48d4b06af9ee30 =
     [ "IWayPoint.hpp", "IWayPoint_8hpp_source.html", null ],
     [ "OreRefinery.hpp", "OreRefinery_8hpp_source.html", null ],
     [ "PowerPlants.hpp", "PowerPlants_8hpp_source.html", null ],
+    [ "SandBag.hpp", "SandBag_8hpp_source.html", null ],
     [ "Structure.hpp", "Structure_8hpp_source.html", null ],
     [ "StructureOrder.hpp", "StructureOrder_8hpp_source.html", null ],
     [ "WarFactory.hpp", "WarFactory_8hpp_source.html", null ],
