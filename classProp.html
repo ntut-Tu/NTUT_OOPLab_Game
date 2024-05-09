@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Practical Tools for Simple Design: PowerPlants Class Reference</title>
+<title>Practical Tools for Simple Design: Prop Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classPowerPlants.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classProp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -100,16 +100,16 @@ $(document).ready(function(){initNavTree('classPowerPlants.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classPowerPlants-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PowerPlants Class Reference</div></div>
+<a href="classProp-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Prop Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for PowerPlants:</div>
+Inheritance diagram for Prop:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classPowerPlants.png" usemap="#PowerPlants_map" alt=""/>
-  <map id="PowerPlants_map" name="PowerPlants_map">
+  <img src="classProp.png" usemap="#Prop_map" alt=""/>
+  <map id="Prop_map" name="Prop_map">
 <area href="classStructure.html" alt="Structure" shape="rect" coords="171,56,275,80"/>
 <area href="classUtil_1_1GameObject.html" title="A class representing a game object." alt="Util::GameObject" shape="rect" coords="0,0,104,24"/>
 <area href="classSelectable.html" alt="Selectable" shape="rect" coords="114,0,218,24"/>
@@ -120,16 +120,30 @@ Inheritance diagram for PowerPlants:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1a858e74b7c2064e43ddddce1df653ca"><td class="memItemLeft" align="right" valign="top"><a id="a1a858e74b7c2064e43ddddce1df653ca" name="a1a858e74b7c2064e43ddddce1df653ca"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PowerPlants</b> (float electricPower=100.F, float buildingTime=15.F *CHEAT, float buildingCost=300.F, float buildingHp=400.F, HouseType house=HouseType::MY, std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt; health=std::make_shared&lt; <a class="el" href="classHealth.html">Health</a> &gt;(100, 0.5))</td></tr>
-<tr class="separator:a1a858e74b7c2064e43ddddce1df653ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c673f8e85edca04ccabbdf1c20c3f9"><td class="memItemLeft" align="right" valign="top"><a id="a38c673f8e85edca04ccabbdf1c20c3f9" name="a38c673f8e85edca04ccabbdf1c20c3f9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PowerPlants</b> (HouseType house)</td></tr>
-<tr class="separator:a38c673f8e85edca04ccabbdf1c20c3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f18111c976d46a642e3b3d82d7ce23a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPowerPlants.html#a4f18111c976d46a642e3b3d82d7ce23a">SetSpriteSheet</a> () override</td></tr>
-<tr class="separator:a4f18111c976d46a642e3b3d82d7ce23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335d42828692da4b21354141da5a84a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPowerPlants.html#a335d42828692da4b21354141da5a84a0">SetObjectLocation</a> (glm::vec2 location) override</td></tr>
-<tr class="separator:a335d42828692da4b21354141da5a84a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14fb6d591271b65c32fb65166e947ccd"><td class="memItemLeft" align="right" valign="top"><a id="a14fb6d591271b65c32fb65166e947ccd" name="a14fb6d591271b65c32fb65166e947ccd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Prop</b> (bool selectable=false)</td></tr>
+<tr class="separator:a14fb6d591271b65c32fb65166e947ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c88234f0154ff71db62261059c5298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProp.html#a17c88234f0154ff71db62261059c5298">Start</a> (glm::vec2 width) override</td></tr>
+<tr class="separator:a17c88234f0154ff71db62261059c5298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74b55ac85be017098ed027ffaf2cb92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProp.html#ac74b55ac85be017098ed027ffaf2cb92">attachmentUpdate</a> () override</td></tr>
+<tr class="separator:ac74b55ac85be017098ed027ffaf2cb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3b7f0ab37708664550498eb32653d4"><td class="memItemLeft" align="right" valign="top"><a id="aef3b7f0ab37708664550498eb32653d4" name="aef3b7f0ab37708664550498eb32653d4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setScale</b> (glm::vec2 scale)</td></tr>
+<tr class="separator:aef3b7f0ab37708664550498eb32653d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a732c1545d1f36db876fe666300bd498e"><td class="memItemLeft" align="right" valign="top"><a id="a732c1545d1f36db876fe666300bd498e" name="a732c1545d1f36db876fe666300bd498e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setHighLightImage</b> (std::string path)</td></tr>
+<tr class="separator:a732c1545d1f36db876fe666300bd498e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9c1c60c5de0ee0d710a72ce940b6a2"><td class="memItemLeft" align="right" valign="top"><a id="a9a9c1c60c5de0ee0d710a72ce940b6a2" name="a9a9c1c60c5de0ee0d710a72ce940b6a2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setHighLightOffset</b> (glm::vec2 globalDistance)</td></tr>
+<tr class="separator:a9a9c1c60c5de0ee0d710a72ce940b6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203efc50cd760aa91c318c8fb2e75d8b"><td class="memItemLeft" align="right" valign="top"><a id="a203efc50cd760aa91c318c8fb2e75d8b" name="a203efc50cd760aa91c318c8fb2e75d8b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setObjectLocation</b> (glm::vec2 location, float offsetCell)</td></tr>
+<tr class="separator:a203efc50cd760aa91c318c8fb2e75d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a187f88c0dd646a6bd8bf238325cf21"><td class="memItemLeft" align="right" valign="top"><a id="a0a187f88c0dd646a6bd8bf238325cf21" name="a0a187f88c0dd646a6bd8bf238325cf21"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isOverlaps</b> (glm::vec2 cell)</td></tr>
+<tr class="separator:a0a187f88c0dd646a6bd8bf238325cf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000393ec7bc05130652b6beda2b1e035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProp.html#a000393ec7bc05130652b6beda2b1e035">Update</a> () override</td></tr>
+<tr class="separator:a000393ec7bc05130652b6beda2b1e035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classStructure"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStructure')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStructure.html">Structure</a></td></tr>
 <tr class="memitem:a023ff3cac2b75b5c4530bcbcded90622 inherit pub_methods_classStructure"><td class="memItemLeft" align="right" valign="top"><a id="a023ff3cac2b75b5c4530bcbcded90622" name="a023ff3cac2b75b5c4530bcbcded90622"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Structure</b> (float electricPower, float buildingTime, float buildingCost, float buildingHp, <a class="el" href="classGameObjectID.html">GameObjectID</a> id, std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt; health)</td></tr>
@@ -368,8 +382,8 @@ StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_Struc
 <tr class="separator:a8114d684eb895a9a87ec21b43aa6f1d5 inherit pro_attribs_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a335d42828692da4b21354141da5a84a0" name="a335d42828692da4b21354141da5a84a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a335d42828692da4b21354141da5a84a0">&#9670;&#160;</a></span>SetObjectLocation()</h2>
+<a id="ac74b55ac85be017098ed027ffaf2cb92" name="ac74b55ac85be017098ed027ffaf2cb92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac74b55ac85be017098ed027ffaf2cb92">&#9670;&#160;</a></span>attachmentUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,10 +392,9 @@ StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_Struc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PowerPlants::SetObjectLocation </td>
+          <td class="memname">void Prop::attachmentUpdate </td>
           <td>(</td>
-          <td class="paramtype">glm::vec2&#160;</td>
-          <td class="paramname"><em>location</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -396,8 +409,8 @@ StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_Struc
 
 </div>
 </div>
-<a id="a4f18111c976d46a642e3b3d82d7ce23a" name="a4f18111c976d46a642e3b3d82d7ce23a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f18111c976d46a642e3b3d82d7ce23a">&#9670;&#160;</a></span>SetSpriteSheet()</h2>
+<a id="a17c88234f0154ff71db62261059c5298" name="a17c88234f0154ff71db62261059c5298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c88234f0154ff71db62261059c5298">&#9670;&#160;</a></span>Start()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,7 +419,35 @@ StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_Struc
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PowerPlants::SetSpriteSheet </td>
+          <td class="memname">void Prop::Start </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec2&#160;</td>
+          <td class="paramname"><em>width</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classStructure.html">Structure</a>.</p>
+
+</div>
+</div>
+<a id="a000393ec7bc05130652b6beda2b1e035" name="a000393ec7bc05130652b6beda2b1e035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000393ec7bc05130652b6beda2b1e035">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Prop::Update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -424,14 +465,14 @@ StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_Struc
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/Structure/<a class="el" href="PowerPlants_8hpp_source.html">PowerPlants.hpp</a></li>
+<li>include/Util/<a class="el" href="Prop_8hpp_source.html">Prop.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="classPowerPlants.html">PowerPlants</a></li>
+    <li class="navelem"><a class="el" href="classProp.html">Prop</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>

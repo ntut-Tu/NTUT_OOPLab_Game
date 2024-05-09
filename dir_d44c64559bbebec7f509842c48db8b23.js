@@ -16,5 +16,6 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "config.hpp", "config_8hpp_source.html", null ],
     [ "Cursor.hpp", "Cursor_8hpp_source.html", null ],
     [ "pch.hpp", "pch_8hpp_source.html", null ],
-    [ "Selectable.hpp", "Selectable_8hpp_source.html", null ]
+    [ "Selectable.hpp", "Selectable_8hpp_source.html", null ],
+    [ "Task.hpp", "Task_8hpp_source.html", null ]
 ];

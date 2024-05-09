@@ -48,6 +48,7 @@ var hierarchy =
       [ "Structure", "classStructure.html", [
         [ "ADVPowerPlants", "classADVPowerPlants.html", null ],
         [ "PowerPlants", "classPowerPlants.html", null ],
+        [ "Prop", "classProp.html", null ],
         [ "SandBag", "classSandBag.html", null ],
         [ "WayPointStructure", "classWayPointStructure.html", [
           [ "Barracks", "classBarracks.html", null ],
@@ -55,6 +56,7 @@ var hierarchy =
           [ "WarFactory", "classWarFactory.html", null ]
         ] ]
       ] ],
+      [ "Task", "classTask.html", null ],
       [ "WayPoint", "classWayPoint.html", null ]
     ] ],
     [ "Health", "classHealth.html", null ],
