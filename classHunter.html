@@ -136,9 +136,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>attack</b> (std::shar
 <tr class="memitem:a3f83a245758c9bc969f3b64eed3898ab inherit pub_methods_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a3f83a245758c9bc969f3b64eed3898ab" name="a3f83a245758c9bc969f3b64eed3898ab"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Avatar</b> (UnitType unit, HouseType house)</td></tr>
 <tr class="separator:a3f83a245758c9bc969f3b64eed3898ab inherit pub_methods_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28dc30136bbe69435a5f487a8fc4bc4d inherit pub_methods_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a28dc30136bbe69435a5f487a8fc4bc4d" name="a28dc30136bbe69435a5f487a8fc4bc4d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> (glm::vec2 destination)</td></tr>
-<tr class="separator:a28dc30136bbe69435a5f487a8fc4bc4d inherit pub_methods_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae589c312d7bcbce71b5ac62ecebac262 inherit pub_methods_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="ae589c312d7bcbce71b5ac62ecebac262" name="ae589c312d7bcbce71b5ac62ecebac262"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> (glm::vec2 spawnlocationcell)</td></tr>
+<tr class="separator:ae589c312d7bcbce71b5ac62ecebac262 inherit pub_methods_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b01cb7822af16144c130b5b157760de inherit pub_methods_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a7b01cb7822af16144c130b5b157760de" name="a7b01cb7822af16144c130b5b157760de"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>aliveUpdate</b> ()</td></tr>
 <tr class="separator:a7b01cb7822af16144c130b5b157760de inherit pub_methods_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,6 +184,9 @@ glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentCell</
 <tr class="memitem:a73da50ce6bc0977b7e52acff58da71ea inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a73da50ce6bc0977b7e52acff58da71ea" name="a73da50ce6bc0977b7e52acff58da71ea"></a>
 glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentLocation</b> ()</td></tr>
 <tr class="separator:a73da50ce6bc0977b7e52acff58da71ea inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a070ff3f28cc9edfd6e5c5138f0c12f83 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a070ff3f28cc9edfd6e5c5138f0c12f83" name="a070ff3f28cc9edfd6e5c5138f0c12f83"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentLocation</b> (glm::vec2 location)</td></tr>
+<tr class="separator:a070ff3f28cc9edfd6e5c5138f0c12f83 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af221eae45537314843395d20aac67c78 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="af221eae45537314843395d20aac67c78" name="af221eae45537314843395d20aac67c78"></a>
 MoveDirection&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentDir</b> ()</td></tr>
 <tr class="separator:af221eae45537314843395d20aac67c78 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,9 +202,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifArrivedAtNextCell</
 <tr class="memitem:a28121663c4b74787d2a6fadface5d4fa inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a28121663c4b74787d2a6fadface5d4fa" name="a28121663c4b74787d2a6fadface5d4fa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMovePath</b> (std::deque&lt; MoveDirection &gt; movepath)</td></tr>
 <tr class="separator:a28121663c4b74787d2a6fadface5d4fa inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f65ba605cc0c5c7c30069fc521a6855 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a3f65ba605cc0c5c7c30069fc521a6855" name="a3f65ba605cc0c5c7c30069fc521a6855"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getDestinationCell</b> ()</td></tr>
-<tr class="separator:a3f65ba605cc0c5c7c30069fc521a6855 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427cee4391df5e5e846b8095f7461b59 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a427cee4391df5e5e846b8095f7461b59" name="a427cee4391df5e5e846b8095f7461b59"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifNewDestionationIsSetted</b> ()</td></tr>
 <tr class="separator:a427cee4391df5e5e846b8095f7461b59 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +211,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setMovementSpeed</b> 
 <tr class="memitem:a7927df3d6211033bc5adaa45c22e2751 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a7927df3d6211033bc5adaa45c22e2751" name="a7927df3d6211033bc5adaa45c22e2751"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setNewDestinationIsSetted</b> (bool value)</td></tr>
 <tr class="separator:a7927df3d6211033bc5adaa45c22e2751 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f65ba605cc0c5c7c30069fc521a6855 inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a3f65ba605cc0c5c7c30069fc521a6855" name="a3f65ba605cc0c5c7c30069fc521a6855"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getDestinationCell</b> ()</td></tr>
+<tr class="separator:a3f65ba605cc0c5c7c30069fc521a6855 inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbed396271482fb8413d25cd644ec7ad inherit pub_methods_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="adbed396271482fb8413d25cd644ec7ad" name="adbed396271482fb8413d25cd644ec7ad"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setDestinationCell</b> (glm::vec2 destination)</td></tr>
 <tr class="separator:adbed396271482fb8413d25cd644ec7ad inherit pub_methods_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,16 +330,10 @@ Additional Inherited Members</h2></td></tr>
 <a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_Transform</b></td></tr>
 <tr class="separator:a62e59b6976904cb2a052340f58b37dd1 inherit pub_attribs_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classAvatar"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classAvatar')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classAvatar.html">Avatar</a></td></tr>
-<tr class="memitem:a84ce86eb5c5d66f1440dfe22088f2676 inherit pro_attribs_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a84ce86eb5c5d66f1440dfe22088f2676" name="a84ce86eb5c5d66f1440dfe22088f2676"></a>
-std::shared_ptr&lt; <a class="el" href="classUtil_1_1Image.html">Util::Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_Image</b></td></tr>
-<tr class="separator:a84ce86eb5c5d66f1440dfe22088f2676 inherit pro_attribs_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb05188b2805787d3755c814ad2e316a inherit pro_attribs_classAvatar"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classSpriteSheet.html">SpriteSheet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAvatar.html#afb05188b2805787d3755c814ad2e316a">m_AvatarSpriteSheet</a></td></tr>
 <tr class="separator:afb05188b2805787d3755c814ad2e316a inherit pro_attribs_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5178a3cd72703f095b144ca4859753a0 inherit pro_attribs_classAvatar"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classUtil_1_1SpriteSheetAnimation.html">Util::SpriteSheetAnimation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAvatar.html#a5178a3cd72703f095b144ca4859753a0">m_SpriteSheetAnimation</a></td></tr>
 <tr class="separator:a5178a3cd72703f095b144ca4859753a0 inherit pro_attribs_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e0dbf09bc8ab2110cff7ec1014f1f3d inherit pro_attribs_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a0e0dbf09bc8ab2110cff7ec1014f1f3d" name="a0e0dbf09bc8ab2110cff7ec1014f1f3d"></a>
-<a class="el" href="classGameObjectID.html">GameObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_ID</b></td></tr>
-<tr class="separator:a0e0dbf09bc8ab2110cff7ec1014f1f3d inherit pro_attribs_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a019b014c0edf458b3fd33c4e978bc90b inherit pro_attribs_classAvatar"><td class="memItemLeft" align="right" valign="top"><a id="a019b014c0edf458b3fd33c4e978bc90b" name="a019b014c0edf458b3fd33c4e978bc90b"></a>
 std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_Health</b> = std::make_shared&lt;<a class="el" href="classHealth.html">Health</a>&gt;()</td></tr>
 <tr class="separator:a019b014c0edf458b3fd33c4e978bc90b inherit pro_attribs_classAvatar"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -352,9 +349,9 @@ std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt;&#160;</td><td 
 <tr class="memitem:abb10113e82611f623405cbe20a02738c inherit pro_attribs_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="abb10113e82611f623405cbe20a02738c" name="abb10113e82611f623405cbe20a02738c"></a>
 glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentLocation</b></td></tr>
 <tr class="separator:abb10113e82611f623405cbe20a02738c inherit pro_attribs_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e57b1b2325dc7788fd4b573038b61e inherit pro_attribs_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a69e57b1b2325dc7788fd4b573038b61e" name="a69e57b1b2325dc7788fd4b573038b61e"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_DestinationCell</b></td></tr>
-<tr class="separator:a69e57b1b2325dc7788fd4b573038b61e inherit pro_attribs_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253b6ed11e017c0294c7066a8f5d9f4c inherit pro_attribs_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a253b6ed11e017c0294c7066a8f5d9f4c" name="a253b6ed11e017c0294c7066a8f5d9f4c"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_DestinationLocation</b></td></tr>
+<tr class="separator:a253b6ed11e017c0294c7066a8f5d9f4c inherit pro_attribs_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c19e0e642a48e592e432a5068330b3c inherit pro_attribs_classMoving"><td class="memItemLeft" align="right" valign="top"><a id="a5c19e0e642a48e592e432a5068330b3c" name="a5c19e0e642a48e592e432a5068330b3c"></a>
 MoveDirection&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentDir</b> = MoveDirection::IDLE</td></tr>
 <tr class="separator:a5c19e0e642a48e592e432a5068330b3c inherit pro_attribs_classMoving"><td class="memSeparator" colspan="2">&#160;</td></tr>
