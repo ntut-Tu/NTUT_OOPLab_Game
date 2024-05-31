@@ -1,23 +1,16 @@
 var hierarchy =
 [
+    [ "AIGroupCommander", "classAIGroupCommander.html", null ],
     [ "App", "classApp.html", null ],
     [ "Util::AssetStore< T >", "classUtil_1_1AssetStore.html", null ],
     [ "Util::AssetStore< std::shared_ptr< Mix_Chunk > >", "classUtil_1_1AssetStore.html", null ],
     [ "Util::AssetStore< std::shared_ptr< Mix_Music > >", "classUtil_1_1AssetStore.html", null ],
     [ "Util::AssetStore< std::shared_ptr< SDL_RWops > >", "classUtil_1_1AssetStore.html", null ],
     [ "Util::AssetStore< std::shared_ptr< SDL_Surface > >", "classUtil_1_1AssetStore.html", null ],
-    [ "AttackAndDamage", "classAttackAndDamage.html", [
-      [ "Avatar", "classAvatar.html", [
-        [ "Hunter", "classHunter.html", null ],
-        [ "Infantry", "classInfantry.html", null ],
-        [ "Runner", "classRunner.html", null ]
-      ] ]
-    ] ],
+    [ "AttackAndDamage", "classAttackAndDamage.html", null ],
     [ "AvatarManager", "classAvatarManager.html", null ],
     [ "AvatarNavigator", "classAvatarNavigator.html", null ],
-    [ "AvatarOrder", "classAvatarOrder.html", [
-      [ "Avatar", "classAvatar.html", null ]
-    ] ],
+    [ "AvatarOrder", "classAvatarOrder.html", null ],
     [ "Util::BGM", "classUtil_1_1BGM.html", null ],
     [ "BuiltStructure", "classBuiltStructure.html", null ],
     [ "CameraClass", "classCameraClass.html", null ],
@@ -43,7 +36,12 @@ var hierarchy =
       [ "fmt::formatter< glm::vec< L, Pre > >", "structfmt_1_1formatter_3_01glm_1_1vec_3_01L_00_01Pre_01_4_01_4.html", null ]
     ] ],
     [ "Util::GameObject", "classUtil_1_1GameObject.html", [
-      [ "Avatar", "classAvatar.html", null ],
+      [ "Avatar", "classAvatar.html", [
+        [ "Hunter", "classHunter.html", null ],
+        [ "Infantry", "classInfantry.html", null ],
+        [ "Runner", "classRunner.html", null ]
+      ] ],
+      [ "Button", "classButton.html", null ],
       [ "HighLight", "classHighLight.html", null ],
       [ "Structure", "classStructure.html", [
         [ "ADVPowerPlants", "classADVPowerPlants.html", null ],
@@ -56,30 +54,24 @@ var hierarchy =
           [ "WarFactory", "classWarFactory.html", null ]
         ] ]
       ] ],
-      [ "Task", "classTask.html", null ],
       [ "WayPoint", "classWayPoint.html", null ]
     ] ],
     [ "Health", "classHealth.html", null ],
     [ "House", "classHouse.html", [
       [ "GameObjectID", "classGameObjectID.html", null ]
     ] ],
-    [ "IHealthable", "classIHealthable.html", [
+    [ "Huntable", "classHuntable.html", [
       [ "Avatar", "classAvatar.html", null ],
       [ "Structure", "classStructure.html", null ]
     ] ],
     [ "Core::IndexBuffer", "classCore_1_1IndexBuffer.html", null ],
     [ "Util::Input", "classUtil_1_1Input.html", null ],
-    [ "IOrderable", "classIOrderable.html", null ],
-    [ "IWayPointStructure", "classIWayPointStructure.html", [
-      [ "WayPointStructure", "classWayPointStructure.html", null ]
-    ] ],
+    [ "IWayPointStructure", "classIWayPointStructure.html", null ],
     [ "Line", "classLine.html", null ],
     [ "MapBinReader", "classMapBinReader.html", null ],
     [ "MapUtil", "classMapUtil.html", null ],
     [ "Core::Matrices", "structCore_1_1Matrices.html", null ],
-    [ "Moving", "classMoving.html", [
-      [ "Avatar", "classAvatar.html", null ]
-    ] ],
+    [ "Moving", "classMoving.html", null ],
     [ "NemesisManager", "classNemesisManager.html", null ],
     [ "PathUtility", "classPathUtility.html", null ],
     [ "Player", "classPlayer.html", [
@@ -93,6 +85,7 @@ var hierarchy =
       [ "DemoScene", "classDemoScene.html", null ],
       [ "MapScene", "classMapScene.html", null ],
       [ "MenuScene", "classMenuScene.html", null ],
+      [ "SandBoxScene", "classSandBoxScene.html", null ],
       [ "TutorialScene", "classTutorialScene.html", null ]
     ] ],
     [ "Selectable", "classSelectable.html", [
@@ -103,16 +96,21 @@ var hierarchy =
     [ "Core::Shader", "classCore_1_1Shader.html", null ],
     [ "SpriteSheet", "classSpriteSheet.html", null ],
     [ "StructureManager", "classStructureManager.html", null ],
-    [ "StructureOrder", "classStructureOrder.html", [
-      [ "Structure", "classStructure.html", null ]
-    ] ],
+    [ "StructureOrder", "classStructureOrder.html", null ],
     [ "TerrainConfig", "classTerrainConfig.html", null ],
     [ "Core::Texture", "classCore_1_1Texture.html", null ],
     [ "TileClass", "classTileClass.html", null ],
     [ "Util::Time", "classUtil_1_1Time.html", null ],
     [ "Util::Transform", "structUtil_1_1Transform.html", null ],
+    [ "UI", "classUI.html", [
+      [ "MenuUI", "classMenuUI.html", null ],
+      [ "MissionAccomplishedUI", "classMissionAccomplishedUI.html", null ],
+      [ "MissionFailedUI", "classMissionFailedUI.html", null ],
+      [ "PausedUI", "classPausedUI.html", null ]
+    ] ],
     [ "UIClass", "classUIClass.html", null ],
     [ "UIScriptProcess", "classUIScriptProcess.html", null ],
+    [ "UIStatus", "classUIStatus.html", null ],
     [ "Core::UniformBuffer< T >", "classCore_1_1UniformBuffer.html", null ],
     [ "glm::vec4", null, [
       [ "Util::Color", "classUtil_1_1Color.html", null ]

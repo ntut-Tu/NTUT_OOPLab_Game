@@ -106,18 +106,6 @@ $(document).ready(function(){initNavTree('classMoving.html',''); initResizable()
   <div class="headertitle"><div class="title">Moving Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Moving:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classMoving.png" usemap="#Moving_map" alt=""/>
-  <map id="Moving_map" name="Moving_map">
-<area href="classAvatar.html" alt="Avatar" shape="rect" coords="65,56,120,80"/>
-<area href="classHunter.html" alt="Hunter" shape="rect" coords="0,112,55,136"/>
-<area href="classInfantry.html" alt="Infantry" shape="rect" coords="65,112,120,136"/>
-<area href="classRunner.html" alt="Runner" shape="rect" coords="130,112,185,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -146,6 +134,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentLocation</b
 <tr class="memitem:af221eae45537314843395d20aac67c78"><td class="memItemLeft" align="right" valign="top"><a id="af221eae45537314843395d20aac67c78" name="af221eae45537314843395d20aac67c78"></a>
 MoveDirection&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentDir</b> ()</td></tr>
 <tr class="separator:af221eae45537314843395d20aac67c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823f819fcc93c6a04914fe428e152f97"><td class="memItemLeft" align="right" valign="top"><a id="a823f819fcc93c6a04914fe428e152f97" name="a823f819fcc93c6a04914fe428e152f97"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentDir</b> (MoveDirection dir)</td></tr>
+<tr class="separator:a823f819fcc93c6a04914fe428e152f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8070530ed41eaabb95d537bca141e35"><td class="memItemLeft" align="right" valign="top"><a id="ad8070530ed41eaabb95d537bca141e35" name="ad8070530ed41eaabb95d537bca141e35"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>moveUpdate</b> ()</td></tr>
+<tr class="separator:ad8070530ed41eaabb95d537bca141e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73eab61445d4a2c09ffbadef434f5877"><td class="memItemLeft" align="right" valign="top"><a id="a73eab61445d4a2c09ffbadef434f5877" name="a73eab61445d4a2c09ffbadef434f5877"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>finishedmovingUpdate</b> (AvatarStandingCorner corner=AvatarStandingCorner::CENTER)</td></tr>
+<tr class="separator:a73eab61445d4a2c09ffbadef434f5877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666bdc5ea965f74607ac688bb1707c55"><td class="memItemLeft" align="right" valign="top"><a id="a666bdc5ea965f74607ac688bb1707c55" name="a666bdc5ea965f74607ac688bb1707c55"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>moveToNextCell</b> ()</td></tr>
 <tr class="separator:a666bdc5ea965f74607ac688bb1707c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,21 +155,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifArrivedAtNextCell</
 <tr class="memitem:a28121663c4b74787d2a6fadface5d4fa"><td class="memItemLeft" align="right" valign="top"><a id="a28121663c4b74787d2a6fadface5d4fa" name="a28121663c4b74787d2a6fadface5d4fa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMovePath</b> (std::deque&lt; MoveDirection &gt; movepath)</td></tr>
 <tr class="separator:a28121663c4b74787d2a6fadface5d4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427cee4391df5e5e846b8095f7461b59"><td class="memItemLeft" align="right" valign="top"><a id="a427cee4391df5e5e846b8095f7461b59" name="a427cee4391df5e5e846b8095f7461b59"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifNewDestionationIsSetted</b> ()</td></tr>
-<tr class="separator:a427cee4391df5e5e846b8095f7461b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf592519c856ede307fb990fb63c503"><td class="memItemLeft" align="right" valign="top"><a id="a8bf592519c856ede307fb990fb63c503" name="a8bf592519c856ede307fb990fb63c503"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifMovePathEmpty</b> ()</td></tr>
+<tr class="separator:a8bf592519c856ede307fb990fb63c503"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a267e595dbd53bcd7bdc78c2cea237728"><td class="memItemLeft" align="right" valign="top"><a id="a267e595dbd53bcd7bdc78c2cea237728" name="a267e595dbd53bcd7bdc78c2cea237728"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setMovementSpeed</b> (float speed)</td></tr>
 <tr class="separator:a267e595dbd53bcd7bdc78c2cea237728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7927df3d6211033bc5adaa45c22e2751"><td class="memItemLeft" align="right" valign="top"><a id="a7927df3d6211033bc5adaa45c22e2751" name="a7927df3d6211033bc5adaa45c22e2751"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setNewDestinationIsSetted</b> (bool value)</td></tr>
-<tr class="separator:a7927df3d6211033bc5adaa45c22e2751"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f65ba605cc0c5c7c30069fc521a6855"><td class="memItemLeft" align="right" valign="top"><a id="a3f65ba605cc0c5c7c30069fc521a6855" name="a3f65ba605cc0c5c7c30069fc521a6855"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getDestinationCell</b> ()</td></tr>
-<tr class="separator:a3f65ba605cc0c5c7c30069fc521a6855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbed396271482fb8413d25cd644ec7ad"><td class="memItemLeft" align="right" valign="top"><a id="adbed396271482fb8413d25cd644ec7ad" name="adbed396271482fb8413d25cd644ec7ad"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setDestinationCell</b> (glm::vec2 destination)</td></tr>
-<tr class="separator:adbed396271482fb8413d25cd644ec7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5d222cc75af7fb9378419fe6a1afae"><td class="memItemLeft" align="right" valign="top"><a id="a5d5d222cc75af7fb9378419fe6a1afae" name="a5d5d222cc75af7fb9378419fe6a1afae"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getStandingCorner</b> ()</td></tr>
+<tr class="separator:a5d5d222cc75af7fb9378419fe6a1afae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ac0bffaf9142f43d5e58e8b274525d"><td class="memItemLeft" align="right" valign="top"><a id="ab6ac0bffaf9142f43d5e58e8b274525d" name="ab6ac0bffaf9142f43d5e58e8b274525d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setStandingCorner</b> (int value)</td></tr>
+<tr class="separator:ab6ac0bffaf9142f43d5e58e8b274525d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -185,21 +179,18 @@ std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt;&#160;</td><td 
 <tr class="memitem:abb10113e82611f623405cbe20a02738c"><td class="memItemLeft" align="right" valign="top"><a id="abb10113e82611f623405cbe20a02738c" name="abb10113e82611f623405cbe20a02738c"></a>
 glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentLocation</b></td></tr>
 <tr class="separator:abb10113e82611f623405cbe20a02738c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a253b6ed11e017c0294c7066a8f5d9f4c"><td class="memItemLeft" align="right" valign="top"><a id="a253b6ed11e017c0294c7066a8f5d9f4c" name="a253b6ed11e017c0294c7066a8f5d9f4c"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_DestinationLocation</b></td></tr>
-<tr class="separator:a253b6ed11e017c0294c7066a8f5d9f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c19e0e642a48e592e432a5068330b3c"><td class="memItemLeft" align="right" valign="top"><a id="a5c19e0e642a48e592e432a5068330b3c" name="a5c19e0e642a48e592e432a5068330b3c"></a>
 MoveDirection&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentDir</b> = MoveDirection::IDLE</td></tr>
 <tr class="separator:a5c19e0e642a48e592e432a5068330b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d80e1184afed477b5d0cbc09892246"><td class="memItemLeft" align="right" valign="top"><a id="ad4d80e1184afed477b5d0cbc09892246" name="ad4d80e1184afed477b5d0cbc09892246"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_MovementSpeed</b> = 1.F</td></tr>
 <tr class="separator:ad4d80e1184afed477b5d0cbc09892246"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce0790c07a96db0905afb60098ef50a"><td class="memItemLeft" align="right" valign="top"><a id="acce0790c07a96db0905afb60098ef50a" name="acce0790c07a96db0905afb60098ef50a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_MoveDistance</b> = 0</td></tr>
-<tr class="separator:acce0790c07a96db0905afb60098ef50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b5b2c55f8087e2b2f964668c524c13a"><td class="memItemLeft" align="right" valign="top"><a id="a4b5b2c55f8087e2b2f964668c524c13a" name="a4b5b2c55f8087e2b2f964668c524c13a"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_NewDestinationIsSetted</b> = false</td></tr>
-<tr class="separator:a4b5b2c55f8087e2b2f964668c524c13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b1032542e0d3afd042472b871286b3"><td class="memItemLeft" align="right" valign="top"><a id="a23b1032542e0d3afd042472b871286b3" name="a23b1032542e0d3afd042472b871286b3"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevCell</b></td></tr>
+<tr class="separator:a23b1032542e0d3afd042472b871286b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9396e71ee9af47fce412ee479f3f2ec2"><td class="memItemLeft" align="right" valign="top"><a id="a9396e71ee9af47fce412ee479f3f2ec2" name="a9396e71ee9af47fce412ee479f3f2ec2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_Corner</b> = 0</td></tr>
+<tr class="separator:a9396e71ee9af47fce412ee479f3f2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/Avatar/<a class="el" href="Moving_8hpp_source.html">Moving.hpp</a></li>

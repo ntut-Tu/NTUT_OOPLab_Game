@@ -118,18 +118,18 @@ Inheritance diagram for Util::GameObject:</div>
   <img src="classUtil_1_1GameObject.png" usemap="#Util::GameObject_map" alt=""/>
   <map id="Util::GameObject_map" name="Util::GameObject_map">
 <area href="classAvatar.html" alt="Avatar" shape="rect" coords="0,56,117,80"/>
-<area href="classHighLight.html" alt="HighLight" shape="rect" coords="127,56,244,80"/>
-<area href="classStructure.html" alt="Structure" shape="rect" coords="254,56,371,80"/>
-<area href="classTask.html" alt="Task" shape="rect" coords="381,56,498,80"/>
+<area href="classButton.html" alt="Button" shape="rect" coords="127,56,244,80"/>
+<area href="classHighLight.html" alt="HighLight" shape="rect" coords="254,56,371,80"/>
+<area href="classStructure.html" alt="Structure" shape="rect" coords="381,56,498,80"/>
 <area href="classWayPoint.html" alt="WayPoint" shape="rect" coords="508,56,625,80"/>
 <area href="classHunter.html" alt="Hunter" shape="rect" coords="127,112,244,136"/>
 <area href="classInfantry.html" alt="Infantry" shape="rect" coords="127,168,244,192"/>
 <area href="classRunner.html" alt="Runner" shape="rect" coords="127,224,244,248"/>
-<area href="classADVPowerPlants.html" alt="ADVPowerPlants" shape="rect" coords="381,112,498,136"/>
-<area href="classPowerPlants.html" alt="PowerPlants" shape="rect" coords="381,168,498,192"/>
-<area href="classProp.html" alt="Prop" shape="rect" coords="381,224,498,248"/>
-<area href="classSandBag.html" alt="SandBag" shape="rect" coords="381,280,498,304"/>
-<area href="classWayPointStructure.html" alt="WayPointStructure" shape="rect" coords="381,336,498,360"/>
+<area href="classADVPowerPlants.html" alt="ADVPowerPlants" shape="rect" coords="508,112,625,136"/>
+<area href="classPowerPlants.html" alt="PowerPlants" shape="rect" coords="508,168,625,192"/>
+<area href="classProp.html" alt="Prop" shape="rect" coords="508,224,625,248"/>
+<area href="classSandBag.html" alt="SandBag" shape="rect" coords="508,280,625,304"/>
+<area href="classWayPointStructure.html" alt="WayPointStructure" shape="rect" coords="508,336,625,360"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -139,9 +139,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GameObject</b> ()=default</td></tr>
 <tr class="memdesc:ae7df90c02e4d0fe5426b46fdc4d88c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:ae7df90c02e4d0fe5426b46fdc4d88c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff37fc1f4cc0454d47253c87f9127ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a7ff37fc1f4cc0454d47253c87f9127ef">GameObject</a> (const std::shared_ptr&lt; <a class="el" href="classCore_1_1Drawable.html">Core::Drawable</a> &gt; &amp;drawable, const float zIndex, const bool visible=true, const bool movingRelativeToCamera=true)</td></tr>
-<tr class="memdesc:a7ff37fc1f4cc0454d47253c87f9127ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameterized constructor.  <a href="classUtil_1_1GameObject.html#a7ff37fc1f4cc0454d47253c87f9127ef">More...</a><br /></td></tr>
-<tr class="separator:a7ff37fc1f4cc0454d47253c87f9127ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76bcf60b8cbaa7bc425a18d05b4af211"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a76bcf60b8cbaa7bc425a18d05b4af211">GameObject</a> (const std::shared_ptr&lt; <a class="el" href="classCore_1_1Drawable.html">Core::Drawable</a> &gt; &amp;drawable, const float zIndex, const bool visible=true, const bool movingRelativeToCamera=true, const <a class="el" href="structUtil_1_1Transform.html">Util::Transform</a> transfrom=<a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>())</td></tr>
+<tr class="memdesc:a76bcf60b8cbaa7bc425a18d05b4af211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameterized constructor.  <a href="classUtil_1_1GameObject.html#a76bcf60b8cbaa7bc425a18d05b4af211">More...</a><br /></td></tr>
+<tr class="separator:a76bcf60b8cbaa7bc425a18d05b4af211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b42040c45d8043eef7225fcddd9ecde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a2b42040c45d8043eef7225fcddd9ecde">GameObject</a> (const <a class="el" href="classUtil_1_1GameObject.html">GameObject</a> &amp;other)=default</td></tr>
 <tr class="memdesc:a2b42040c45d8043eef7225fcddd9ecde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classUtil_1_1GameObject.html#a2b42040c45d8043eef7225fcddd9ecde">More...</a><br /></td></tr>
 <tr class="separator:a2b42040c45d8043eef7225fcddd9ecde"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,6 +159,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~GameObject</b> ()
 <tr class="memitem:a13950c92838074c12c7a63de8feda92c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a13950c92838074c12c7a63de8feda92c">GetZIndex</a> () const</td></tr>
 <tr class="memdesc:a13950c92838074c12c7a63de8feda92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the z-index of the game object.  <a href="classUtil_1_1GameObject.html#a13950c92838074c12c7a63de8feda92c">More...</a><br /></td></tr>
 <tr class="separator:a13950c92838074c12c7a63de8feda92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b21588d842931308f3983a3793d8bed"><td class="memItemLeft" align="right" valign="top"><a id="a0b21588d842931308f3983a3793d8bed" name="a0b21588d842931308f3983a3793d8bed"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTransform</b> (<a class="el" href="structUtil_1_1Transform.html">Util::Transform</a> transform)</td></tr>
+<tr class="separator:a0b21588d842931308f3983a3793d8bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed7d7fc80b4985a2e134306271aff76e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUtil_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#aed7d7fc80b4985a2e134306271aff76e">GetTransform</a> () const</td></tr>
 <tr class="memdesc:aed7d7fc80b4985a2e134306271aff76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform of the game object.  <a href="classUtil_1_1GameObject.html#aed7d7fc80b4985a2e134306271aff76e">More...</a><br /></td></tr>
 <tr class="separator:aed7d7fc80b4985a2e134306271aff76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,8 +218,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_MovingRelativeToCam
 <div class="textblock"><p >A class representing a game object. </p>
 <p >This class encapsulates the properties and behaviors of a game object. </p><dl class="section note"><dt>Note</dt><dd>This is an abstract class. Inherit from this class to create your own game objects. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7ff37fc1f4cc0454d47253c87f9127ef" name="a7ff37fc1f4cc0454d47253c87f9127ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff37fc1f4cc0454d47253c87f9127ef">&#9670;&#160;</a></span>GameObject() <span class="overload">[1/2]</span></h2>
+<a id="a76bcf60b8cbaa7bc425a18d05b4af211" name="a76bcf60b8cbaa7bc425a18d05b4af211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76bcf60b8cbaa7bc425a18d05b4af211">&#9670;&#160;</a></span>GameObject() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +249,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_MovingRelativeToCam
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>movingRelativeToCamera</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>movingRelativeToCamera</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>&#160;</td>
+          <td class="paramname"><em>transfrom</em> = <code><a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -269,6 +278,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_MovingRelativeToCam
     <tr><td class="paramname">visible</td><td>The visibility of the game object. </td></tr>
     <tr><td class="paramname">children</td><td>The children of the game object. </td></tr>
     <tr><td class="paramname">movingRelativeToCamera</td><td>Whether the object can move relative to camera position </td></tr>
+    <tr><td class="paramname">transfrom</td><td>predefined transform </td></tr>
   </table>
   </dd>
 </dl>

@@ -107,18 +107,48 @@ $(document).ready(function(){initNavTree('classEnemyScripts.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a83c8d26bf671a6057e308c6ee3793a06"><td class="memItemLeft" align="right" valign="top"><a id="a83c8d26bf671a6057e308c6ee3793a06" name="a83c8d26bf671a6057e308c6ee3793a06"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> (std::shared_ptr&lt; <a class="el" href="classEnemyPlayer.html">EnemyPlayer</a> &gt; enemyPlayer, std::shared_ptr&lt; <a class="el" href="classUnitManager.html">UnitManager</a> &gt; GameObjectManager, std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; map)</td></tr>
-<tr class="separator:a83c8d26bf671a6057e308c6ee3793a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574c36a76fa882cdc488f74ef3da54a9"><td class="memItemLeft" align="right" valign="top"><a id="a574c36a76fa882cdc488f74ef3da54a9" name="a574c36a76fa882cdc488f74ef3da54a9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> (std::shared_ptr&lt; <a class="el" href="classUnitManager.html">UnitManager</a> &gt; GameObjectManager, std::shared_ptr&lt; <a class="el" href="classUnitManager.html">UnitManager</a> &gt; EnemyObjectManager, std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; map, bool active=true)</td></tr>
+<tr class="separator:a574c36a76fa882cdc488f74ef3da54a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe743b51d799029bff10f3896234519d"><td class="memItemLeft" align="right" valign="top"><a id="afe743b51d799029bff10f3896234519d" name="afe743b51d799029bff10f3896234519d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:afe743b51d799029bff10f3896234519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2d527215c74bb06aae0484ec80b12bb"><td class="memItemLeft" align="right" valign="top"><a id="ae2d527215c74bb06aae0484ec80b12bb" name="ae2d527215c74bb06aae0484ec80b12bb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateSpawnScript</b> ()</td></tr>
-<tr class="separator:ae2d527215c74bb06aae0484ec80b12bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514a645272ea49dba165499905f92d52"><td class="memItemLeft" align="right" valign="top"><a id="a514a645272ea49dba165499905f92d52" name="a514a645272ea49dba165499905f92d52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>modeUpdate</b> ()</td></tr>
+<tr class="separator:a514a645272ea49dba165499905f92d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c032b799058b6a2376701d1bff7c5e"><td class="memItemLeft" align="right" valign="top"><a id="aa9c032b799058b6a2376701d1bff7c5e" name="aa9c032b799058b6a2376701d1bff7c5e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>offensiveUpdate</b> ()</td></tr>
+<tr class="separator:aa9c032b799058b6a2376701d1bff7c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034fba521e88a34f3f52149923807450"><td class="memItemLeft" align="right" valign="top"><a id="a034fba521e88a34f3f52149923807450" name="a034fba521e88a34f3f52149923807450"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateAllTroopStates</b> ()</td></tr>
+<tr class="separator:a034fba521e88a34f3f52149923807450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8cce66bdcc48122c8c5f4df70da010"><td class="memItemLeft" align="right" valign="top"><a id="a8e8cce66bdcc48122c8c5f4df70da010" name="a8e8cce66bdcc48122c8c5f4df70da010"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCDTime</b> (float time, SpawnMode spawnMode, bool cheat=true)</td></tr>
+<tr class="separator:a8e8cce66bdcc48122c8c5f4df70da010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a550989ed29a68135e69d887e6375f38a"><td class="memItemLeft" align="right" valign="top"><a id="a550989ed29a68135e69d887e6375f38a" name="a550989ed29a68135e69d887e6375f38a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCost</b> (float cost, SpawnMode spawnMode)</td></tr>
+<tr class="separator:a550989ed29a68135e69d887e6375f38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca9ad7141b8f0cf7e2c869325a9c0dd"><td class="memItemLeft" align="right" valign="top"><a id="a4ca9ad7141b8f0cf7e2c869325a9c0dd" name="a4ca9ad7141b8f0cf7e2c869325a9c0dd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifBuiltBasic</b> ()</td></tr>
+<tr class="separator:a4ca9ad7141b8f0cf7e2c869325a9c0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe9441717ad859d20c50a85a0fc8f11"><td class="memItemLeft" align="right" valign="top"><a id="a6fe9441717ad859d20c50a85a0fc8f11" name="a6fe9441717ad859d20c50a85a0fc8f11"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifBuiltADV</b> ()</td></tr>
+<tr class="separator:a6fe9441717ad859d20c50a85a0fc8f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af0d500f102627cf5156bc834e16adc"><td class="memItemLeft" align="right" valign="top"><a id="a0af0d500f102627cf5156bc834e16adc" name="a0af0d500f102627cf5156bc834e16adc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>buildBasic</b> ()</td></tr>
+<tr class="separator:a0af0d500f102627cf5156bc834e16adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced80d67f2ce3387fd27a8e71084505c"><td class="memItemLeft" align="right" valign="top"><a id="aced80d67f2ce3387fd27a8e71084505c" name="aced80d67f2ce3387fd27a8e71084505c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>buildADV</b> ()</td></tr>
+<tr class="separator:aced80d67f2ce3387fd27a8e71084505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5017de43dcd7a2bd917793a2f6a0d0cb"><td class="memItemLeft" align="right" valign="top"><a id="a5017de43dcd7a2bd917793a2f6a0d0cb" name="a5017de43dcd7a2bd917793a2f6a0d0cb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnUnit</b> ()</td></tr>
+<tr class="separator:a5017de43dcd7a2bd917793a2f6a0d0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2941a22ad63beb99f9ea06fb10bed6"><td class="memItemLeft" align="right" valign="top"><a id="a2e2941a22ad63beb99f9ea06fb10bed6" name="a2e2941a22ad63beb99f9ea06fb10bed6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateSpawnScript</b> (SpawnMode spawnMode)</td></tr>
+<tr class="separator:a2e2941a22ad63beb99f9ea06fb10bed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/Enemy/<a class="el" href="EnemyScripts_8hpp_source.html">EnemyScripts.hpp</a></li>
+<li>include/AI/<a class="el" href="EnemyScripts_8hpp_source.html">EnemyScripts.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

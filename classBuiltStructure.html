@@ -100,7 +100,6 @@ $(document).ready(function(){initNavTree('classBuiltStructure.html',''); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classBuiltStructure-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BuiltStructure Class Reference</div></div>
 </div><!--header-->
@@ -108,15 +107,18 @@ $(document).ready(function(){initNavTree('classBuiltStructure.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d9beee3fd88cdef1a3e9b404608a97b"><td class="memItemLeft" align="right" valign="top"><a id="a5d9beee3fd88cdef1a3e9b404608a97b" name="a5d9beee3fd88cdef1a3e9b404608a97b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>buildNewStructure</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; m_Map, std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; newstruct, bool force=false)</td></tr>
-<tr class="separator:a5d9beee3fd88cdef1a3e9b404608a97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84656972f68273f93d0a082f5cf68323"><td class="memItemLeft" align="right" valign="top"><a id="a84656972f68273f93d0a082f5cf68323" name="a84656972f68273f93d0a082f5cf68323"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifCanBuildStructureAtTile</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; m_Map, std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; newstruct)</td></tr>
-<tr class="separator:a84656972f68273f93d0a082f5cf68323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc8cdcf7acaf621a368882580870eb4"><td class="memItemLeft" align="right" valign="top"><a id="a7dc8cdcf7acaf621a368882580870eb4" name="a7dc8cdcf7acaf621a368882580870eb4"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>getBuiltStructureArray</b> ()</td></tr>
-<tr class="separator:a7dc8cdcf7acaf621a368882580870eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c17f277ea37f1e979a68a9bf12d7749"><td class="memItemLeft" align="right" valign="top"><a id="a5c17f277ea37f1e979a68a9bf12d7749" name="a5c17f277ea37f1e979a68a9bf12d7749"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; map)</td></tr>
+<tr class="separator:a5c17f277ea37f1e979a68a9bf12d7749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84af4c2cc8091b54873d19700720e85"><td class="memItemLeft" align="right" valign="top"><a id="aa84af4c2cc8091b54873d19700720e85" name="aa84af4c2cc8091b54873d19700720e85"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>buildNewStructure</b> (std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; newstruct, bool force=false)</td></tr>
+<tr class="separator:aa84af4c2cc8091b54873d19700720e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfdf0550a4bb5b7e04d4eae3a6ac7ccd"><td class="memItemLeft" align="right" valign="top"><a id="adfdf0550a4bb5b7e04d4eae3a6ac7ccd" name="adfdf0550a4bb5b7e04d4eae3a6ac7ccd"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifCanBuildStructureAtTile</b> (std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; newstruct)</td></tr>
+<tr class="separator:adfdf0550a4bb5b7e04d4eae3a6ac7ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae6922c9ec7033917a195de8c45b51c"><td class="memItemLeft" align="right" valign="top"><a id="abae6922c9ec7033917a195de8c45b51c" name="abae6922c9ec7033917a195de8c45b51c"></a>
+std::vector&lt; std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getBuiltStructureArray</b> ()</td></tr>
+<tr class="separator:abae6922c9ec7033917a195de8c45b51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa329472a8412e7bf687faa0ce91542c0"><td class="memItemLeft" align="right" valign="top"><a id="aa329472a8412e7bf687faa0ce91542c0" name="aa329472a8412e7bf687faa0ce91542c0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>StartBuiltStructure</b> ()</td></tr>
 <tr class="separator:aa329472a8412e7bf687faa0ce91542c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,39 +128,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateBuiltStructure<
 <tr class="memitem:a497153c47e1ccb4922dd48894fb3dbaa"><td class="memItemLeft" align="right" valign="top"><a id="a497153c47e1ccb4922dd48894fb3dbaa" name="a497153c47e1ccb4922dd48894fb3dbaa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; structure)</td></tr>
 <tr class="separator:a497153c47e1ccb4922dd48894fb3dbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d9fd589c73c9276b22de823e0f3298"><td class="memItemLeft" align="right" valign="top"><a id="a05d9fd589c73c9276b22de823e0f3298" name="a05d9fd589c73c9276b22de823e0f3298"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>updateAvatarSpawnLocation</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; &gt; structure)</td></tr>
-<tr class="separator:a05d9fd589c73c9276b22de823e0f3298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f3106bba1bae685bb67bde5e4bc5b3"><td class="memItemLeft" align="right" valign="top"><a id="a69f3106bba1bae685bb67bde5e4bc5b3" name="a69f3106bba1bae685bb67bde5e4bc5b3"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getEnemyBarrackCell</b> ()</td></tr>
-<tr class="separator:a69f3106bba1bae685bb67bde5e4bc5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad15f502cf4991c38ff01f2d5c9a83221"><td class="memItemLeft" align="right" valign="top"><a id="ad15f502cf4991c38ff01f2d5c9a83221" name="ad15f502cf4991c38ff01f2d5c9a83221"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getEnemyWayPointCell</b> ()</td></tr>
-<tr class="separator:ad15f502cf4991c38ff01f2d5c9a83221"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad997fa8aed9d924d0812b61db0120e8e"><td class="memItemLeft" align="right" valign="top"><a id="ad997fa8aed9d924d0812b61db0120e8e" name="ad997fa8aed9d924d0812b61db0120e8e"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getPlayerBarrackCell</b> ()</td></tr>
-<tr class="separator:ad997fa8aed9d924d0812b61db0120e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88b6fc6925552968b0192f02ea0af040"><td class="memItemLeft" align="right" valign="top"><a id="a88b6fc6925552968b0192f02ea0af040" name="a88b6fc6925552968b0192f02ea0af040"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getPlayerWayPointCell</b> ()</td></tr>
-<tr class="separator:a88b6fc6925552968b0192f02ea0af040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ab4e5456ee127b4d799cb1f078e2d52c0"><td class="memItemLeft" align="right" valign="top"><a id="ab4e5456ee127b4d799cb1f078e2d52c0" name="ab4e5456ee127b4d799cb1f078e2d52c0"></a>
-std::vector&lt; std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_BuiltStructure</b></td></tr>
-<tr class="separator:ab4e5456ee127b4d799cb1f078e2d52c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6493ba1f0d3c7221b0e774cb2833d4"><td class="memItemLeft" align="right" valign="top"><a id="a5f6493ba1f0d3c7221b0e774cb2833d4" name="a5f6493ba1f0d3c7221b0e774cb2833d4"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_EnemyBarrackCell</b> ={-1,-1}</td></tr>
-<tr class="separator:a5f6493ba1f0d3c7221b0e774cb2833d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b2e3cc7b4f8d6280408ac4153398f2"><td class="memItemLeft" align="right" valign="top"><a id="a47b2e3cc7b4f8d6280408ac4153398f2" name="a47b2e3cc7b4f8d6280408ac4153398f2"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_EnemyWayPointCell</b> ={-1,-1}</td></tr>
-<tr class="separator:a47b2e3cc7b4f8d6280408ac4153398f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277dc92b44418b84b577bddac3270575"><td class="memItemLeft" align="right" valign="top"><a id="a277dc92b44418b84b577bddac3270575" name="a277dc92b44418b84b577bddac3270575"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_PlayerBarrackCell</b> ={-1,-1}</td></tr>
-<tr class="separator:a277dc92b44418b84b577bddac3270575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea9a530c3990739a3291e6bc86d317d3"><td class="memItemLeft" align="right" valign="top"><a id="aea9a530c3990739a3291e6bc86d317d3" name="aea9a530c3990739a3291e6bc86d317d3"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_PlayerWayPointCell</b> ={-1,-1}</td></tr>
-<tr class="separator:aea9a530c3990739a3291e6bc86d317d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a19d97aa521d59d74530be3e6fccd8f"><td class="memItemLeft" align="right" valign="top"><a id="a0a19d97aa521d59d74530be3e6fccd8f" name="a0a19d97aa521d59d74530be3e6fccd8f"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getPlayerBarrackSpawnCell</b> ()</td></tr>
+<tr class="separator:a0a19d97aa521d59d74530be3e6fccd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a575fde6f387ec63ce766fdfa48927b"><td class="memItemLeft" align="right" valign="top"><a id="a8a575fde6f387ec63ce766fdfa48927b" name="a8a575fde6f387ec63ce766fdfa48927b"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getPlayerBarrackWayPointCell</b> ()</td></tr>
+<tr class="separator:a8a575fde6f387ec63ce766fdfa48927b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cd0854fd16e6863412ab188d574ff98"><td class="memItemLeft" align="right" valign="top"><a id="a5cd0854fd16e6863412ab188d574ff98" name="a5cd0854fd16e6863412ab188d574ff98"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifBarrackBuilt</b> ()</td></tr>
+<tr class="separator:a5cd0854fd16e6863412ab188d574ff98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7606d4122832c867d821b64868a1f94a"><td class="memItemLeft" align="right" valign="top"><a id="a7606d4122832c867d821b64868a1f94a" name="a7606d4122832c867d821b64868a1f94a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifPowerPlantBuilt</b> ()</td></tr>
+<tr class="separator:a7606d4122832c867d821b64868a1f94a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952a81937c124d81c27765f14a298b3e"><td class="memItemLeft" align="right" valign="top"><a id="a952a81937c124d81c27765f14a298b3e" name="a952a81937c124d81c27765f14a298b3e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifWarFactoryBuilt</b> ()</td></tr>
+<tr class="separator:a952a81937c124d81c27765f14a298b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ef1e235a44cbc3abb0971e5af4207b"><td class="memItemLeft" align="right" valign="top"><a id="a93ef1e235a44cbc3abb0971e5af4207b" name="a93ef1e235a44cbc3abb0971e5af4207b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifOreRefinaryBuilt</b> ()</td></tr>
+<tr class="separator:a93ef1e235a44cbc3abb0971e5af4207b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/Mechanics/<a class="el" href="BuiltStructure_8hpp_source.html">BuiltStructure.hpp</a></li>

@@ -6,5 +6,8 @@ var searchData=
   ['maputil_3',['MapUtil',['../classMapUtil.html',1,'']]],
   ['matrices_4',['Matrices',['../structCore_1_1Matrices.html',1,'Core']]],
   ['menuscene_5',['MenuScene',['../classMenuScene.html',1,'']]],
-  ['moving_6',['Moving',['../classMoving.html',1,'']]]
+  ['menuui_6',['MenuUI',['../classMenuUI.html',1,'']]],
+  ['missionaccomplishedui_7',['MissionAccomplishedUI',['../classMissionAccomplishedUI.html',1,'']]],
+  ['missionfailedui_8',['MissionFailedUI',['../classMissionFailedUI.html',1,'']]],
+  ['moving_9',['Moving',['../classMoving.html',1,'']]]
 ];

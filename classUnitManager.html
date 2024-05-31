@@ -131,25 +131,34 @@ std::shared_ptr&lt; <a class="el" href="classAvatarManager.html">AvatarManager</
 <tr class="memitem:a50cd786b932fe652dc2c87df4f669b5f"><td class="memItemLeft" align="right" valign="top"><a id="a50cd786b932fe652dc2c87df4f669b5f" name="a50cd786b932fe652dc2c87df4f669b5f"></a>
 std::shared_ptr&lt; <a class="el" href="classStructureManager.html">StructureManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStructureManager</b> ()</td></tr>
 <tr class="separator:a50cd786b932fe652dc2c87df4f669b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db09acaafdb52001711ca5bc1243926"><td class="memItemLeft" align="right" valign="top"><a id="a8db09acaafdb52001711ca5bc1243926" name="a8db09acaafdb52001711ca5bc1243926"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateCurrency</b> ()</td></tr>
-<tr class="separator:a8db09acaafdb52001711ca5bc1243926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96bc0564be6f8e2d0d9886c0f5d7d209"><td class="memItemLeft" align="right" valign="top"><a id="a96bc0564be6f8e2d0d9886c0f5d7d209" name="a96bc0564be6f8e2d0d9886c0f5d7d209"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>importEnemy</b> (std::shared_ptr&lt; <a class="el" href="classEnemyPlayer.html">EnemyPlayer</a> &gt; enemy)</td></tr>
-<tr class="separator:a96bc0564be6f8e2d0d9886c0f5d7d209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f09c589f38f5bc29c68fb9f185f65e5"><td class="memItemLeft" align="right" valign="top"><a id="a7f09c589f38f5bc29c68fb9f185f65e5" name="a7f09c589f38f5bc29c68fb9f185f65e5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>spawn</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; m_Map, UnitType unit, HouseType house)</td></tr>
-<tr class="separator:a7f09c589f38f5bc29c68fb9f185f65e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ddc15795f98e776afdf2f15b8ff22f7"><td class="memItemLeft" align="right" valign="top"><a id="a2ddc15795f98e776afdf2f15b8ff22f7" name="a2ddc15795f98e776afdf2f15b8ff22f7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>spawn</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; m_Map, UnitType unit, HouseType house, glm::vec2 cellPos)</td></tr>
-<tr class="separator:a2ddc15795f98e776afdf2f15b8ff22f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f1221ea8ff31b6c9cdcacb7dd6d206"><td class="memItemLeft" align="right" valign="top"><a id="ab8f1221ea8ff31b6c9cdcacb7dd6d206" name="ab8f1221ea8ff31b6c9cdcacb7dd6d206"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>updateCurrency</b> ()</td></tr>
+<tr class="separator:ab8f1221ea8ff31b6c9cdcacb7dd6d206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab6b18a0add56070dd16f88d083623d"><td class="memItemLeft" align="right" valign="top"><a id="a9ab6b18a0add56070dd16f88d083623d" name="a9ab6b18a0add56070dd16f88d083623d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnToWayPoint</b> (UnitType unit, HouseType house)</td></tr>
+<tr class="separator:a9ab6b18a0add56070dd16f88d083623d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b28a828b37f969bd55b99c15f93491e"><td class="memItemLeft" align="right" valign="top"><a id="a9b28a828b37f969bd55b99c15f93491e" name="a9b28a828b37f969bd55b99c15f93491e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawn</b> (UnitType unit, HouseType house, glm::vec2 cellPos)</td></tr>
+<tr class="separator:a9b28a828b37f969bd55b99c15f93491e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ca3cb9c355c265a11f191fddc0577d"><td class="memItemLeft" align="right" valign="top"><a id="a60ca3cb9c355c265a11f191fddc0577d" name="a60ca3cb9c355c265a11f191fddc0577d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addUnitConstructCount</b> (UnitType type, int value)</td></tr>
+<tr class="separator:a60ca3cb9c355c265a11f191fddc0577d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0ce737455bbb563e74809d9d217b2e"><td class="memItemLeft" align="right" valign="top"><a id="ade0ce737455bbb563e74809d9d217b2e" name="ade0ce737455bbb563e74809d9d217b2e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getUnitConstructCount</b> (UnitType type)</td></tr>
+<tr class="separator:ade0ce737455bbb563e74809d9d217b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1797a89af951e870738016a0d713fbb"><td class="memItemLeft" align="right" valign="top"><a id="af1797a89af951e870738016a0d713fbb" name="af1797a89af951e870738016a0d713fbb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getAvatarCount</b> ()</td></tr>
+<tr class="separator:af1797a89af951e870738016a0d713fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d419ebfbe979ee076acb16a429c92c"><td class="memItemLeft" align="right" valign="top"><a id="ab1d419ebfbe979ee076acb16a429c92c" name="ab1d419ebfbe979ee076acb16a429c92c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addAvatarCount</b> (UnitType type, int value)</td></tr>
+<tr class="separator:ab1d419ebfbe979ee076acb16a429c92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPlayer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPlayer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classPlayer.html">Player</a></td></tr>
 <tr class="memitem:af56358b4ad3e2854b178cd696f154fd3 inherit pub_methods_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="af56358b4ad3e2854b178cd696f154fd3" name="af56358b4ad3e2854b178cd696f154fd3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalCurrency</b> (int value)</td></tr>
 <tr class="separator:af56358b4ad3e2854b178cd696f154fd3 inherit pub_methods_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f9377fa8fcebbf3f2d9cb2d9c67afac inherit pub_methods_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="a5f9377fa8fcebbf3f2d9cb2d9c67afac" name="a5f9377fa8fcebbf3f2d9cb2d9c67afac"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addTotalCurrency</b> (int value)</td></tr>
-<tr class="separator:a5f9377fa8fcebbf3f2d9cb2d9c67afac inherit pub_methods_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb88cb4c1d5379529a13fd6e2928a4a3 inherit pub_methods_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="aeb88cb4c1d5379529a13fd6e2928a4a3" name="aeb88cb4c1d5379529a13fd6e2928a4a3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addTotalCurrency</b> (float value)</td></tr>
+<tr class="separator:aeb88cb4c1d5379529a13fd6e2928a4a3 inherit pub_methods_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eaea3f5112a0527462d6ba89c814388 inherit pub_methods_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="a6eaea3f5112a0527462d6ba89c814388" name="a6eaea3f5112a0527462d6ba89c814388"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setFixedPower</b> (int value)</td></tr>
 <tr class="separator:a6eaea3f5112a0527462d6ba89c814388 inherit pub_methods_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,9 +185,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>m_MaxTroopSize</b> = 2
 <tr class="memitem:a3ad0627d8bbfcf1549dc7b84612349a2 inherit pro_attribs_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="a3ad0627d8bbfcf1549dc7b84612349a2" name="a3ad0627d8bbfcf1549dc7b84612349a2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_FixedPower</b> = 0</td></tr>
 <tr class="separator:a3ad0627d8bbfcf1549dc7b84612349a2 inherit pro_attribs_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fe5cb955a42e8a8782e472cdf7db66c inherit pro_attribs_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="a0fe5cb955a42e8a8782e472cdf7db66c" name="a0fe5cb955a42e8a8782e472cdf7db66c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_TotalCurrency</b> = 0</td></tr>
-<tr class="separator:a0fe5cb955a42e8a8782e472cdf7db66c inherit pro_attribs_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2e4de79d9f066361b86914ec880c8b inherit pro_attribs_classPlayer"><td class="memItemLeft" align="right" valign="top"><a id="a2b2e4de79d9f066361b86914ec880c8b" name="a2b2e4de79d9f066361b86914ec880c8b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_TotalCurrency</b> = 0</td></tr>
+<tr class="separator:a2b2e4de79d9f066361b86914ec880c8b inherit pro_attribs_classPlayer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/Mechanics/<a class="el" href="UnitManager_8hpp_source.html">UnitManager.hpp</a></li>

@@ -10,7 +10,7 @@ var searchData=
   ['colors_7',['Colors',['../namespaceUtil.html#a80cdf50793a9101631584b20607a14e2',1,'Util']]],
   ['context_8',['Context',['../classCore_1_1Context.html#a7cbc7d91a45aa27c6a247eca7b3c40c6',1,'Core::Context::Context()'],['../classCore_1_1Context.html',1,'Core::Context']]],
   ['converttouniformbufferdata_9',['ConvertToUniformBufferData',['../namespaceUtil.html#a45e3e4f96aaac8e23c435be6bacca014',1,'Util']]],
-  ['cooldown_10',['COOLDOWN',['../classUtil_1_1Animation.html#a35566c5f2af25f6330e5ee004aeeb700a6397c936615b97b70adb188970dfc31b',1,'Util::Animation::COOLDOWN()'],['../classUtil_1_1SpriteSheetAnimation.html#a2c6c081edeed9d9a467022da1ba709d4a6397c936615b97b70adb188970dfc31b',1,'Util::SpriteSheetAnimation::COOLDOWN()']]],
+  ['cooldown_10',['COOLDOWN',['../classUtil_1_1SpriteSheetAnimation.html#a2c6c081edeed9d9a467022da1ba709d4a6397c936615b97b70adb188970dfc31b',1,'Util::SpriteSheetAnimation::COOLDOWN()'],['../classUtil_1_1Animation.html#a35566c5f2af25f6330e5ee004aeeb700a6397c936615b97b70adb188970dfc31b',1,'Util::Animation::COOLDOWN()']]],
   ['copy_11',['COPY',['../namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5ae8606d021da140a92c7eba8d9b8af84f',1,'Util']]],
   ['core_12',['Core',['../namespaceCore.html',1,'']]],
   ['cursorclass_13',['CursorClass',['../classCursorClass.html',1,'']]],

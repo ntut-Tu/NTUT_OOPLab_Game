@@ -101,7 +101,6 @@ $(document).ready(function(){initNavTree('classUIClass.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classUIClass-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UIClass Class Reference</div></div>
 </div><!--header-->
@@ -121,18 +120,18 @@ std::unique_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt;&
 <tr class="memitem:abc18de3facbe6e4c2e6246c5cffcdd82"><td class="memItemLeft" align="right" valign="top"><a id="abc18de3facbe6e4c2e6246c5cffcdd82" name="abc18de3facbe6e4c2e6246c5cffcdd82"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getIfAnyBuildingReadyToBuild</b> ()</td></tr>
 <tr class="separator:abc18de3facbe6e4c2e6246c5cffcdd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb86f859a27d5f1d27239a2549cfe575"><td class="memItemLeft" align="right" valign="top"><a id="aeb86f859a27d5f1d27239a2549cfe575" name="aeb86f859a27d5f1d27239a2549cfe575"></a>
-std::shared_ptr&lt; <a class="el" href="classAvatar.html">Avatar</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getUnitFromUI</b> ()</td></tr>
-<tr class="separator:aeb86f859a27d5f1d27239a2549cfe575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9af40fa05216b0d591be979ededc653"><td class="memItemLeft" align="right" valign="top"><a id="ae9af40fa05216b0d591be979ededc653" name="ae9af40fa05216b0d591be979ededc653"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getIfUnitReadyToSpawn</b> ()</td></tr>
-<tr class="separator:ae9af40fa05216b0d591be979ededc653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67305119d02a6b728a8b13e4535730f"><td class="memItemLeft" align="right" valign="top"><a id="ab67305119d02a6b728a8b13e4535730f" name="ab67305119d02a6b728a8b13e4535730f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ifUnitReadyToSpawn</b> ()</td></tr>
+<tr class="separator:ab67305119d02a6b728a8b13e4535730f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a821956034ac0a3f14aad46b29d84407e"><td class="memItemLeft" align="right" valign="top"><a id="a821956034ac0a3f14aad46b29d84407e" name="a821956034ac0a3f14aad46b29d84407e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setIfUnitReadyToSpawn</b> (bool b)</td></tr>
 <tr class="separator:a821956034ac0a3f14aad46b29d84407e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c0bf18adefc78ad5d0a7cc9efd9a0ef"><td class="memItemLeft" align="right" valign="top"><a id="a1c0bf18adefc78ad5d0a7cc9efd9a0ef" name="a1c0bf18adefc78ad5d0a7cc9efd9a0ef"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>checkExistBuilding</b> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classStructure.html">Structure</a> &gt; &gt; buildingList)</td></tr>
 <tr class="separator:a1c0bf18adefc78ad5d0a7cc9efd9a0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8de046ec101436b1f12d9b0afa6ede"><td class="memItemLeft" align="right" valign="top"><a id="a8e8de046ec101436b1f12d9b0afa6ede" name="a8e8de046ec101436b1f12d9b0afa6ede"></a>
+UnitType&#160;</td><td class="memItemRight" valign="bottom"><b>getUnitTypeReadyToBeSpawned</b> ()</td></tr>
+<tr class="separator:a8e8de046ec101436b1f12d9b0afa6ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -145,18 +144,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>setUnitConstru
 <tr class="memitem:a5d631c29d1aae3d11c9b4a438d688a7d"><td class="memItemLeft" align="right" valign="top"><a id="a5d631c29d1aae3d11c9b4a438d688a7d" name="a5d631c29d1aae3d11c9b4a438d688a7d"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>resetUnitConstructCount</b> (UnitType type)</td></tr>
 <tr class="separator:a5d631c29d1aae3d11c9b4a438d688a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a85081a38f6087ef96819e2a29e19faa6"><td class="memItemLeft" align="right" valign="top"><a id="a85081a38f6087ef96819e2a29e19faa6" name="a85081a38f6087ef96819e2a29e19faa6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>importMap</b> (std::shared_ptr&lt; <a class="el" href="classMapClass.html">MapClass</a> &gt; m_Map)</td></tr>
-<tr class="separator:a85081a38f6087ef96819e2a29e19faa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a4a109859a1f123a1db00425feae20a"><td class="memItemLeft" align="right" valign="top"><a id="a0a4a109859a1f123a1db00425feae20a" name="a0a4a109859a1f123a1db00425feae20a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>importGameObjManager</b> (std::shared_ptr&lt; <a class="el" href="classUnitManager.html">UnitManager</a> &gt; gameObjectManager)</td></tr>
-<tr class="separator:a0a4a109859a1f123a1db00425feae20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>include/UI/<a class="el" href="UI_8hpp_source.html">UI.hpp</a></li>
+<li>include/UI/<a class="el" href="IngameUI_8hpp_source.html">IngameUI.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

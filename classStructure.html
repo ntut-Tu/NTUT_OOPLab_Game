@@ -111,10 +111,9 @@ Inheritance diagram for Structure:</div>
  <div class="center">
   <img src="classStructure.png" usemap="#Structure_map" alt=""/>
   <map id="Structure_map" name="Structure_map">
-<area href="classUtil_1_1GameObject.html" title="A class representing a game object." alt="Util::GameObject" shape="rect" coords="63,0,180,24"/>
-<area href="classSelectable.html" alt="Selectable" shape="rect" coords="190,0,307,24"/>
-<area href="classStructureOrder.html" alt="StructureOrder" shape="rect" coords="317,0,434,24"/>
-<area href="classIHealthable.html" alt="IHealthable" shape="rect" coords="444,0,561,24"/>
+<area href="classUtil_1_1GameObject.html" title="A class representing a game object." alt="Util::GameObject" shape="rect" coords="127,0,244,24"/>
+<area href="classSelectable.html" alt="Selectable" shape="rect" coords="254,0,371,24"/>
+<area href="classHuntable.html" alt="Huntable" shape="rect" coords="381,0,498,24"/>
 <area href="classADVPowerPlants.html" alt="ADVPowerPlants" shape="rect" coords="0,112,117,136"/>
 <area href="classPowerPlants.html" alt="PowerPlants" shape="rect" coords="127,112,244,136"/>
 <area href="classProp.html" alt="Prop" shape="rect" coords="254,112,371,136"/>
@@ -167,9 +166,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetAttachVisi
 <tr class="memitem:abf247f1c3ac9ce84c0a9c969f4c0a5c2"><td class="memItemLeft" align="right" valign="top"><a id="abf247f1c3ac9ce84c0a9c969f4c0a5c2" name="abf247f1c3ac9ce84c0a9c969f4c0a5c2"></a>
 glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>GetDrawLocation</b> ()</td></tr>
 <tr class="separator:abf247f1c3ac9ce84c0a9c969f4c0a5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20266fd5d729f57b7515d6ad63fb202d"><td class="memItemLeft" align="right" valign="top"><a id="a20266fd5d729f57b7515d6ad63fb202d" name="a20266fd5d729f57b7515d6ad63fb202d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetID</b> (<a class="el" href="classGameObjectID.html">GameObjectID</a> id)</td></tr>
-<tr class="separator:a20266fd5d729f57b7515d6ad63fb202d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1cd6d3321de26ba4f336464c7e3b737"><td class="memItemLeft" align="right" valign="top"><a id="ab1cd6d3321de26ba4f336464c7e3b737" name="ab1cd6d3321de26ba4f336464c7e3b737"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>attachmentUpdate</b> ()</td></tr>
 <tr class="separator:ab1cd6d3321de26ba4f336464c7e3b737"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,33 +181,46 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>getBuildingCost</b> 
 <tr class="memitem:a76ef54d378982c43d885668c9fe781df"><td class="memItemLeft" align="right" valign="top"><a id="a76ef54d378982c43d885668c9fe781df" name="a76ef54d378982c43d885668c9fe781df"></a>
 HouseType&#160;</td><td class="memItemRight" valign="bottom"><b>getHouseType</b> ()</td></tr>
 <tr class="separator:a76ef54d378982c43d885668c9fe781df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a728237504ee8c7ffbc6f80caabe919d7"><td class="memItemLeft" align="right" valign="top"><a id="a728237504ee8c7ffbc6f80caabe919d7" name="a728237504ee8c7ffbc6f80caabe919d7"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>GlobalCoordToCellCoord</b> (glm::vec2 globalCoord)</td></tr>
-<tr class="separator:a728237504ee8c7ffbc6f80caabe919d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10d306613953eee72dddbd468e31fbf6"><td class="memItemLeft" align="right" valign="top"><a id="a10d306613953eee72dddbd468e31fbf6" name="a10d306613953eee72dddbd468e31fbf6"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectCell</b> ()</td></tr>
-<tr class="separator:a10d306613953eee72dddbd468e31fbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2edbe382166fad6e58c4387ec98c34"><td class="memItemLeft" align="right" valign="top"><a id="a8d2edbe382166fad6e58c4387ec98c34" name="a8d2edbe382166fad6e58c4387ec98c34"></a>
-std::vector&lt; glm::vec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAbsoluteOccupiedArea</b> ()</td></tr>
-<tr class="separator:a8d2edbe382166fad6e58c4387ec98c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa152f206a0674aa0d51e0d5391af0f16"><td class="memItemLeft" align="right" valign="top"><a id="aa152f206a0674aa0d51e0d5391af0f16" name="aa152f206a0674aa0d51e0d5391af0f16"></a>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getLocationCell</b> ()</td></tr>
+<tr class="separator:aa152f206a0674aa0d51e0d5391af0f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5f64fd7821205226d2e9098db37714"><td class="memItemLeft" align="right" valign="top"><a id="a3c5f64fd7821205226d2e9098db37714" name="a3c5f64fd7821205226d2e9098db37714"></a>
+std::vector&lt; glm::vec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getAbsoluteOccupiedArea</b> ()</td></tr>
+<tr class="separator:a3c5f64fd7821205226d2e9098db37714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ef0b27efd4d1fed904a9a50069929c"><td class="memItemLeft" align="right" valign="top"><a id="a53ef0b27efd4d1fed904a9a50069929c" name="a53ef0b27efd4d1fed904a9a50069929c"></a>
+std::vector&lt; glm::vec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getNearbyArea</b> ()</td></tr>
+<tr class="separator:a53ef0b27efd4d1fed904a9a50069929c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1faca1b5cf80d20d54f3f96880c3e06b"><td class="memItemLeft" align="right" valign="top"><a id="a1faca1b5cf80d20d54f3f96880c3e06b" name="a1faca1b5cf80d20d54f3f96880c3e06b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRelativeOccupiedArea</b> (std::vector&lt; glm::vec2 &gt; Area)</td></tr>
 <tr class="separator:a1faca1b5cf80d20d54f3f96880c3e06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bba9be4c4b903da105093d71d153d2a"><td class="memItemLeft" align="right" valign="top"><a id="a7bba9be4c4b903da105093d71d153d2a" name="a7bba9be4c4b903da105093d71d153d2a"></a>
 <a class="el" href="classGameObjectID.html">GameObjectID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getID</b> ()</td></tr>
 <tr class="separator:a7bba9be4c4b903da105093d71d153d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e85aff9e5bab0d59b375d7fb414836f"><td class="memItemLeft" align="right" valign="top"><a id="a6e85aff9e5bab0d59b375d7fb414836f" name="a6e85aff9e5bab0d59b375d7fb414836f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setHealth</b> (std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt; health)</td></tr>
+<tr class="separator:a6e85aff9e5bab0d59b375d7fb414836f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b5d0c470c974ea1c404227876b4f38"><td class="memItemLeft" align="right" valign="top"><a id="a06b5d0c470c974ea1c404227876b4f38" name="a06b5d0c470c974ea1c404227876b4f38"></a>
+std::shared_ptr&lt; <a class="el" href="classStructureOrder.html">StructureOrder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getStructureOrder</b> ()</td></tr>
+<tr class="separator:a06b5d0c470c974ea1c404227876b4f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bb5df7334511b044573ff49e2ecdf90"><td class="memItemLeft" align="right" valign="top"><a id="a2bb5df7334511b044573ff49e2ecdf90" name="a2bb5df7334511b044573ff49e2ecdf90"></a>
+std::shared_ptr&lt; <a class="el" href="classAttackAndDamage.html">AttackAndDamage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getAttackAndDamage</b> ()</td></tr>
+<tr class="separator:a2bb5df7334511b044573ff49e2ecdf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2de18738a7ebfde9301026d6977084"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#add2de18738a7ebfde9301026d6977084">getHealth</a> () override</td></tr>
 <tr class="separator:add2de18738a7ebfde9301026d6977084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838537b0dad422318abb4e7f8708dad8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#a838537b0dad422318abb4e7f8708dad8">setHealth</a> (std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt; health) override</td></tr>
-<tr class="separator:a838537b0dad422318abb4e7f8708dad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7815c4a5572a603cec3fad2b2864d47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#ab7815c4a5572a603cec3fad2b2864d47">setOrderNoOrder</a> () override</td></tr>
+<tr class="separator:ab7815c4a5572a603cec3fad2b2864d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7866ab54ca9fb1eb4fe0ddbe4a0e1c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#a7866ab54ca9fb1eb4fe0ddbe4a0e1c29">setOrderTakenDamage</a> () override</td></tr>
+<tr class="separator:a7866ab54ca9fb1eb4fe0ddbe4a0e1c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac64cb19b414f7f919dd98652cc844a16"><td class="memItemLeft" align="right" valign="top">glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#ac64cb19b414f7f919dd98652cc844a16">getCurrentLocationInCell</a> () override</td></tr>
+<tr class="separator:ac64cb19b414f7f919dd98652cc844a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classUtil_1_1GameObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classUtil_1_1GameObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classUtil_1_1GameObject.html">Util::GameObject</a></td></tr>
 <tr class="memitem:ae7df90c02e4d0fe5426b46fdc4d88c63 inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top"><a id="ae7df90c02e4d0fe5426b46fdc4d88c63" name="ae7df90c02e4d0fe5426b46fdc4d88c63"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GameObject</b> ()=default</td></tr>
 <tr class="memdesc:ae7df90c02e4d0fe5426b46fdc4d88c63 inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:ae7df90c02e4d0fe5426b46fdc4d88c63 inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff37fc1f4cc0454d47253c87f9127ef inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a7ff37fc1f4cc0454d47253c87f9127ef">GameObject</a> (const std::shared_ptr&lt; <a class="el" href="classCore_1_1Drawable.html">Core::Drawable</a> &gt; &amp;drawable, const float zIndex, const bool visible=true, const bool movingRelativeToCamera=true)</td></tr>
-<tr class="memdesc:a7ff37fc1f4cc0454d47253c87f9127ef inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameterized constructor.  <a href="classUtil_1_1GameObject.html#a7ff37fc1f4cc0454d47253c87f9127ef">More...</a><br /></td></tr>
-<tr class="separator:a7ff37fc1f4cc0454d47253c87f9127ef inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76bcf60b8cbaa7bc425a18d05b4af211 inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a76bcf60b8cbaa7bc425a18d05b4af211">GameObject</a> (const std::shared_ptr&lt; <a class="el" href="classCore_1_1Drawable.html">Core::Drawable</a> &gt; &amp;drawable, const float zIndex, const bool visible=true, const bool movingRelativeToCamera=true, const <a class="el" href="structUtil_1_1Transform.html">Util::Transform</a> transfrom=<a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>())</td></tr>
+<tr class="memdesc:a76bcf60b8cbaa7bc425a18d05b4af211 inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameterized constructor.  <a href="classUtil_1_1GameObject.html#a76bcf60b8cbaa7bc425a18d05b4af211">More...</a><br /></td></tr>
+<tr class="separator:a76bcf60b8cbaa7bc425a18d05b4af211 inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b42040c45d8043eef7225fcddd9ecde inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a2b42040c45d8043eef7225fcddd9ecde">GameObject</a> (const <a class="el" href="classUtil_1_1GameObject.html">GameObject</a> &amp;other)=default</td></tr>
 <tr class="memdesc:a2b42040c45d8043eef7225fcddd9ecde inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="classUtil_1_1GameObject.html#a2b42040c45d8043eef7225fcddd9ecde">More...</a><br /></td></tr>
 <tr class="separator:a2b42040c45d8043eef7225fcddd9ecde inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,6 +238,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~GameObject</b> ()
 <tr class="memitem:a13950c92838074c12c7a63de8feda92c inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#a13950c92838074c12c7a63de8feda92c">GetZIndex</a> () const</td></tr>
 <tr class="memdesc:a13950c92838074c12c7a63de8feda92c inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the z-index of the game object.  <a href="classUtil_1_1GameObject.html#a13950c92838074c12c7a63de8feda92c">More...</a><br /></td></tr>
 <tr class="separator:a13950c92838074c12c7a63de8feda92c inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b21588d842931308f3983a3793d8bed inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top"><a id="a0b21588d842931308f3983a3793d8bed" name="a0b21588d842931308f3983a3793d8bed"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTransform</b> (<a class="el" href="structUtil_1_1Transform.html">Util::Transform</a> transform)</td></tr>
+<tr class="separator:a0b21588d842931308f3983a3793d8bed inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed7d7fc80b4985a2e134306271aff76e inherit pub_methods_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUtil_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1GameObject.html#aed7d7fc80b4985a2e134306271aff76e">GetTransform</a> () const</td></tr>
 <tr class="memdesc:aed7d7fc80b4985a2e134306271aff76e inherit pub_methods_classUtil_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transform of the game object.  <a href="classUtil_1_1GameObject.html#aed7d7fc80b4985a2e134306271aff76e">More...</a><br /></td></tr>
 <tr class="separator:aed7d7fc80b4985a2e134306271aff76e inherit pub_methods_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,22 +284,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setSelected</b> (bool
 <tr class="memitem:aa69d4d90fe731db29eea23524f35b606 inherit pub_methods_classSelectable"><td class="memItemLeft" align="right" valign="top"><a id="aa69d4d90fe731db29eea23524f35b606" name="aa69d4d90fe731db29eea23524f35b606"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>whenSelected</b> ()=0</td></tr>
 <tr class="separator:aa69d4d90fe731db29eea23524f35b606 inherit pub_methods_classSelectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classStructureOrder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStructureOrder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStructureOrder.html">StructureOrder</a></td></tr>
-<tr class="memitem:a67def0e151b608fd3e2f6c7d6204ca4f inherit pub_methods_classStructureOrder"><td class="memItemLeft" align="right" valign="top"><a id="a67def0e151b608fd3e2f6c7d6204ca4f" name="a67def0e151b608fd3e2f6c7d6204ca4f"></a>
-StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>getStructOrder</b> ()</td></tr>
-<tr class="separator:a67def0e151b608fd3e2f6c7d6204ca4f inherit pub_methods_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67485d2bf47ea5b1a2a7119938d00e54 inherit pub_methods_classStructureOrder"><td class="memItemLeft" align="right" valign="top"><a id="a67485d2bf47ea5b1a2a7119938d00e54" name="a67485d2bf47ea5b1a2a7119938d00e54"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setStructOrder</b> (StructureOrderType structorder)</td></tr>
-<tr class="separator:a67485d2bf47ea5b1a2a7119938d00e54 inherit pub_methods_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7af9171c98ad09126d64f10e2a372db1 inherit pub_methods_classStructureOrder"><td class="memItemLeft" align="right" valign="top"><a id="a7af9171c98ad09126d64f10e2a372db1" name="a7af9171c98ad09126d64f10e2a372db1"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>getBuilt</b> ()</td></tr>
-<tr class="separator:a7af9171c98ad09126d64f10e2a372db1 inherit pub_methods_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee4c001c6adc4e984986ca5778b0bf6"><td class="memItemLeft" align="right" valign="top"><a id="acee4c001c6adc4e984986ca5778b0bf6" name="acee4c001c6adc4e984986ca5778b0bf6"></a>
+<tr class="memitem:a16c881ce37bb7f12841cfd1c48f274ed"><td class="memItemLeft" align="right" valign="top"><a id="a16c881ce37bb7f12841cfd1c48f274ed" name="a16c881ce37bb7f12841cfd1c48f274ed"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderNoOrder</b> ()=0</td></tr>
+<tr class="separator:a16c881ce37bb7f12841cfd1c48f274ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9236ea2a31bb204a01a5742f37811de8"><td class="memItemLeft" align="right" valign="top"><a id="a9236ea2a31bb204a01a5742f37811de8" name="a9236ea2a31bb204a01a5742f37811de8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setOrderTakenDamage</b> ()=0</td></tr>
+<tr class="separator:a9236ea2a31bb204a01a5742f37811de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa205441ffbbf5f726189b25a767c66b3"><td class="memItemLeft" align="right" valign="top"><a id="aa205441ffbbf5f726189b25a767c66b3" name="aa205441ffbbf5f726189b25a767c66b3"></a>
+virtual glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>getCurrentLocationInCell</b> ()=0</td></tr>
+<tr class="separator:aa205441ffbbf5f726189b25a767c66b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2232a31b0ffb8797c0b6b0b713c3eb2c"><td class="memItemLeft" align="right" valign="top"><a id="a2232a31b0ffb8797c0b6b0b713c3eb2c" name="a2232a31b0ffb8797c0b6b0b713c3eb2c"></a>
 virtual std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getHealth</b> ()=0</td></tr>
-<tr class="separator:acee4c001c6adc4e984986ca5778b0bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2590ed9b2e974f73ba480ac1b5f109c6"><td class="memItemLeft" align="right" valign="top"><a id="a2590ed9b2e974f73ba480ac1b5f109c6" name="a2590ed9b2e974f73ba480ac1b5f109c6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setHealth</b> (std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt; health)=0</td></tr>
-<tr class="separator:a2590ed9b2e974f73ba480ac1b5f109c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2232a31b0ffb8797c0b6b0b713c3eb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -321,6 +329,8 @@ glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>m_ObjectLocation
 <tr class="memitem:ab0e6db171594fc7103a0903dfb349cc9"><td class="memItemLeft" align="right" valign="top"><a id="ab0e6db171594fc7103a0903dfb349cc9" name="ab0e6db171594fc7103a0903dfb349cc9"></a>
 std::vector&lt; glm::vec2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_RelativeOccupiedArea</b> = {{0, 0}}</td></tr>
 <tr class="separator:ab0e6db171594fc7103a0903dfb349cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbcb500f50f923af9c8d3f522f1f8ab2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classStructureOrder.html">StructureOrder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStructure.html#afbcb500f50f923af9c8d3f522f1f8ab2">m_Order</a></td></tr>
+<tr class="separator:afbcb500f50f923af9c8d3f522f1f8ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484d40adc4c7ec0705fd7182082bb824"><td class="memItemLeft" align="right" valign="top"><a id="a484d40adc4c7ec0705fd7182082bb824" name="a484d40adc4c7ec0705fd7182082bb824"></a>
 std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_Health</b> = std::make_shared&lt;<a class="el" href="classHealth.html">Health</a>&gt;()</td></tr>
 <tr class="separator:a484d40adc4c7ec0705fd7182082bb824"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -343,30 +353,42 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_MovingRelativeToCam
 <tr class="memitem:a9c3a53d7cd6e183f8fe19b5cdbd0e296 inherit pro_attribs_classSelectable"><td class="memItemLeft" align="right" valign="top"><a id="a9c3a53d7cd6e183f8fe19b5cdbd0e296" name="a9c3a53d7cd6e183f8fe19b5cdbd0e296"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>b_Selected</b> = false</td></tr>
 <tr class="separator:a9c3a53d7cd6e183f8fe19b5cdbd0e296 inherit pro_attribs_classSelectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classStructureOrder"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classStructureOrder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classStructureOrder.html">StructureOrder</a></td></tr>
-<tr class="memitem:a8114d684eb895a9a87ec21b43aa6f1d5 inherit pro_attribs_classStructureOrder"><td class="memItemLeft" align="right" valign="top"><a id="a8114d684eb895a9a87ec21b43aa6f1d5" name="a8114d684eb895a9a87ec21b43aa6f1d5"></a>
-StructureOrderType&#160;</td><td class="memItemRight" valign="bottom"><b>m_StructOrder</b></td></tr>
-<tr class="separator:a8114d684eb895a9a87ec21b43aa6f1d5 inherit pro_attribs_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classStructureOrder"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classStructureOrder')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classStructureOrder.html">StructureOrder</a></td></tr>
-<tr class="memitem:affcd85937dde1245ab5e5d0859a52f6b inherit pub_types_classStructureOrder"><td class="memItemLeft" align="right" valign="top"><a id="affcd85937dde1245ab5e5d0859a52f6b" name="affcd85937dde1245ab5e5d0859a52f6b"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>StructureOrderType</b> { <br />
-&#160;&#160;<b>NOT_CONSTRUCTED_YET</b>
-, <b>CONSTRUCTED</b>
-, <b>SELECTING_SITE</b>
-, <b>BUILT</b>
-, <br />
-&#160;&#160;<b>NO_ORDER</b>
-<br />
- }</td></tr>
-<tr class="separator:affcd85937dde1245ab5e5d0859a52f6b inherit pub_types_classStructureOrder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classUtil_1_1GameObject"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classUtil_1_1GameObject')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classUtil_1_1GameObject.html">Util::GameObject</a></td></tr>
 <tr class="memitem:a62e59b6976904cb2a052340f58b37dd1 inherit pub_attribs_classUtil_1_1GameObject"><td class="memItemLeft" align="right" valign="top"><a id="a62e59b6976904cb2a052340f58b37dd1" name="a62e59b6976904cb2a052340f58b37dd1"></a>
 <a class="el" href="structUtil_1_1Transform.html">Util::Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_Transform</b></td></tr>
 <tr class="separator:a62e59b6976904cb2a052340f58b37dd1 inherit pub_attribs_classUtil_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac64cb19b414f7f919dd98652cc844a16" name="ac64cb19b414f7f919dd98652cc844a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac64cb19b414f7f919dd98652cc844a16">&#9670;&#160;</a></span>getCurrentLocationInCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec2 Structure::getCurrentLocationInCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classHuntable.html">Huntable</a>.</p>
+
+</div>
+</div>
 <a id="add2de18738a7ebfde9301026d6977084" name="add2de18738a7ebfde9301026d6977084"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add2de18738a7ebfde9301026d6977084">&#9670;&#160;</a></span>getHealth()</h2>
 
@@ -390,12 +412,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIHealthable.html">IHealthable</a>.</p>
+<p>Implements <a class="el" href="classHuntable.html">Huntable</a>.</p>
 
 </div>
 </div>
-<a id="a838537b0dad422318abb4e7f8708dad8" name="a838537b0dad422318abb4e7f8708dad8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a838537b0dad422318abb4e7f8708dad8">&#9670;&#160;</a></span>setHealth()</h2>
+<a id="ab7815c4a5572a603cec3fad2b2864d47" name="ab7815c4a5572a603cec3fad2b2864d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7815c4a5572a603cec3fad2b2864d47">&#9670;&#160;</a></span>setOrderNoOrder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,10 +426,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Structure::setHealth </td>
+          <td class="memname">void Structure::setOrderNoOrder </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classHealth.html">Health</a> &gt;&#160;</td>
-          <td class="paramname"><em>health</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -418,7 +439,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classIHealthable.html">IHealthable</a>.</p>
+<p>Implements <a class="el" href="classHuntable.html">Huntable</a>.</p>
+
+</div>
+</div>
+<a id="a7866ab54ca9fb1eb4fe0ddbe4a0e1c29" name="a7866ab54ca9fb1eb4fe0ddbe4a0e1c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7866ab54ca9fb1eb4fe0ddbe4a0e1c29">&#9670;&#160;</a></span>setOrderTakenDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Structure::setOrderTakenDamage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classHuntable.html">Huntable</a>.</p>
 
 </div>
 </div>
@@ -549,6 +597,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {m_ObjectLocation.x + CELL_SIZE.x,</div>
 <div class="line">                                m_ObjectLocation.y + CELL_SIZE.y}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afbcb500f50f923af9c8d3f522f1f8ab2" name="afbcb500f50f923af9c8d3f522f1f8ab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbcb500f50f923af9c8d3f522f1f8ab2">&#9670;&#160;</a></span>m_Order</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classStructureOrder.html">StructureOrder</a>&gt; Structure::m_Order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">        std::make_shared&lt;StructureOrder&gt;()</div>
 </div><!-- fragment -->
 </div>
 </div>

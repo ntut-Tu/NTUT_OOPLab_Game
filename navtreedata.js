@@ -67,10 +67,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"AdvencePowerPlants_8hpp_source.html",
-"classUtil_1_1BGM.html#a9a6cc0a49ca32b9903a47dc201397b73",
-"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a3d548437292c0cd1662fc30d420f2c27",
-"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a40d9ae6a0faf7b68fb8570e7d3092fed"
+"AIGroupCommander_8hpp_source.html",
+"classUtil_1_1BGM.html#a20c43ddc9398b024dc5e336804bcb38c",
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a291554596c183e837f0a6bec3767c891",
+"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a2a2ba333b23c27780252fe27e96a7db3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
