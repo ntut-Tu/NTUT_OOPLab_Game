@@ -65,6 +65,7 @@ var hierarchy =
       [ "Structure", "classStructure.html", null ]
     ] ],
     [ "Core::IndexBuffer", "classCore_1_1IndexBuffer.html", null ],
+    [ "IngamUI", "classIngamUI.html", null ],
     [ "Util::Input", "classUtil_1_1Input.html", null ],
     [ "IWayPointStructure", "classIWayPointStructure.html", null ],
     [ "Line", "classLine.html", null ],
@@ -108,7 +109,6 @@ var hierarchy =
       [ "MissionFailedUI", "classMissionFailedUI.html", null ],
       [ "PausedUI", "classPausedUI.html", null ]
     ] ],
-    [ "UIClass", "classUIClass.html", null ],
     [ "UIScriptProcess", "classUIScriptProcess.html", null ],
     [ "UIStatus", "classUIStatus.html", null ],
     [ "Core::UniformBuffer< T >", "classCore_1_1UniformBuffer.html", null ],
