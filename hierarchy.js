@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "AIGroupCommander", "classAIGroupCommander.html", null ],
+    [ "AIScript", "classAIScript.html", null ],
     [ "App", "classApp.html", null ],
     [ "Util::AssetStore< T >", "classUtil_1_1AssetStore.html", null ],
     [ "Util::AssetStore< std::shared_ptr< Mix_Chunk > >", "classUtil_1_1AssetStore.html", null ],
@@ -29,7 +30,6 @@ var hierarchy =
       [ "Util::SpriteSheetAnimation", "classUtil_1_1SpriteSheetAnimation.html", null ],
       [ "Util::Text", "classUtil_1_1Text.html", null ]
     ] ],
-    [ "EnemyScripts", "classEnemyScripts.html", null ],
     [ "fmt::formatter", null, [
       [ "fmt::formatter< Util::Transform >", "structfmt_1_1formatter_3_01Util_1_1Transform_01_4.html", null ],
       [ "fmt::formatter< glm::mat< C, R, Pre > >", "structfmt_1_1formatter_3_01glm_1_1mat_3_01C_00_01R_00_01Pre_01_4_01_4.html", null ],
@@ -37,9 +37,7 @@ var hierarchy =
     ] ],
     [ "Util::GameObject", "classUtil_1_1GameObject.html", [
       [ "Avatar", "classAvatar.html", [
-        [ "Hunter", "classHunter.html", null ],
-        [ "Infantry", "classInfantry.html", null ],
-        [ "Runner", "classRunner.html", null ]
+        [ "Infantry", "classInfantry.html", null ]
       ] ],
       [ "Button", "classButton.html", null ],
       [ "HighLight", "classHighLight.html", null ],
@@ -67,7 +65,6 @@ var hierarchy =
     [ "Core::IndexBuffer", "classCore_1_1IndexBuffer.html", null ],
     [ "IngamUI", "classIngamUI.html", null ],
     [ "Util::Input", "classUtil_1_1Input.html", null ],
-    [ "IWayPointStructure", "classIWayPointStructure.html", null ],
     [ "Line", "classLine.html", null ],
     [ "MapBinReader", "classMapBinReader.html", null ],
     [ "MapUtil", "classMapUtil.html", null ],

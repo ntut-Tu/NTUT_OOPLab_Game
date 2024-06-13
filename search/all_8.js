@@ -14,6 +14,5 @@ var searchData=
   ['international3_11',['INTERNATIONAL3',['../namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a70055bce1789c7b29d51821ee8d38a72',1,'Util']]],
   ['iskeydown_12',['IsKeyDown',['../classUtil_1_1Input.html#a1efb73fc70a8df5358111a595e88e65f',1,'Util::Input']]],
   ['iskeypressed_13',['IsKeyPressed',['../classUtil_1_1Input.html#a41d0028f3e27ab1dc4e48eb097a320fa',1,'Util::Input']]],
-  ['ismousemoving_14',['IsMouseMoving',['../classUtil_1_1Input.html#a0a540562f9179e8b232326e51bffc09b',1,'Util::Input']]],
-  ['iwaypointstructure_15',['IWayPointStructure',['../classIWayPointStructure.html',1,'']]]
+  ['ismousemoving_14',['IsMouseMoving',['../classUtil_1_1Input.html#a0a540562f9179e8b232326e51bffc09b',1,'Util::Input']]]
 ];
