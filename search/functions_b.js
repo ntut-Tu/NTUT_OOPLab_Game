@@ -1,8 +1,8 @@
 var searchData=
 [
   ['setcolor_0',['SetColor',['../classUtil_1_1Text.html#a83bcae856763378dedb2105c6b443192',1,'Util::Text']]],
-  ['setcooldown_1',['SetCooldown',['../classUtil_1_1SpriteSheetAnimation.html#a1899bf7b154ac211c207eb8e7cb17e5a',1,'Util::SpriteSheetAnimation::SetCooldown()'],['../classUtil_1_1Animation.html#ad31ada160728faaebb5fac0f06fc1b37',1,'Util::Animation::SetCooldown()']]],
-  ['setcooldown_2',['setCooldown',['../classUtil_1_1SpriteSheetAnimation.html#a5f8fab636d68291c58db218211729610',1,'Util::SpriteSheetAnimation']]],
+  ['setcooldown_1',['setCooldown',['../classUtil_1_1SpriteSheetAnimation.html#a5f8fab636d68291c58db218211729610',1,'Util::SpriteSheetAnimation']]],
+  ['setcooldown_2',['SetCooldown',['../classUtil_1_1SpriteSheetAnimation.html#a1899bf7b154ac211c207eb8e7cb17e5a',1,'Util::SpriteSheetAnimation::SetCooldown()'],['../classUtil_1_1Animation.html#ad31ada160728faaebb5fac0f06fc1b37',1,'Util::Animation::SetCooldown()']]],
   ['setcurrentframe_3',['SetCurrentFrame',['../classUtil_1_1SpriteSheetAnimation.html#a3889075ea1a4c09fddceb1786530d5e1',1,'Util::SpriteSheetAnimation::SetCurrentFrame()'],['../classUtil_1_1Animation.html#afce33acbf5d811e4e23303876c5f955c',1,'Util::Animation::SetCurrentFrame()']]],
   ['setcursorposition_4',['SetCursorPosition',['../classUtil_1_1Input.html#a2ad3dbffda36c91cdbf6e655361d95c8',1,'Util::Input']]],
   ['setdrawable_5',['SetDrawable',['../classUtil_1_1GameObject.html#a5b6df4f3045976ca91e855edb1c268df',1,'Util::GameObject']]],
