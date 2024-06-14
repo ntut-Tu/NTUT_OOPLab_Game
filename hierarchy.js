@@ -103,8 +103,8 @@ var hierarchy =
     [ "UI", "classUI.html", [
       [ "MenuUI", "classMenuUI.html", null ],
       [ "MissionAccomplishedUI", "classMissionAccomplishedUI.html", null ],
-      [ "MissionFailedUI", "classMissionFailedUI.html", null ],
-      [ "PausedUI", "classPausedUI.html", null ]
+      [ "PausedUI", "classPausedUI.html", null ],
+      [ "WonUI", "classWonUI.html", null ]
     ] ],
     [ "UIScriptProcess", "classUIScriptProcess.html", null ],
     [ "UIStatus", "classUIStatus.html", null ],

@@ -9,7 +9,6 @@ var searchData=
   ['menuscene_6',['MenuScene',['../classMenuScene.html',1,'']]],
   ['menuui_7',['MenuUI',['../classMenuUI.html',1,'']]],
   ['missionaccomplishedui_8',['MissionAccomplishedUI',['../classMissionAccomplishedUI.html',1,'']]],
-  ['missionfailedui_9',['MissionFailedUI',['../classMissionFailedUI.html',1,'']]],
-  ['mode_10',['MODE',['../namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5ab742db58b16f1d7de716d5e8a8afabbb',1,'Util']]],
-  ['moving_11',['Moving',['../classMoving.html',1,'']]]
+  ['mode_9',['MODE',['../namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5ab742db58b16f1d7de716d5e8a8afabbb',1,'Util']]],
+  ['moving_10',['Moving',['../classMoving.html',1,'']]]
 ];

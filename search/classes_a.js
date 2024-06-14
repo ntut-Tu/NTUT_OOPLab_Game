@@ -8,6 +8,5 @@ var searchData=
   ['menuscene_5',['MenuScene',['../classMenuScene.html',1,'']]],
   ['menuui_6',['MenuUI',['../classMenuUI.html',1,'']]],
   ['missionaccomplishedui_7',['MissionAccomplishedUI',['../classMissionAccomplishedUI.html',1,'']]],
-  ['missionfailedui_8',['MissionFailedUI',['../classMissionFailedUI.html',1,'']]],
-  ['moving_9',['Moving',['../classMoving.html',1,'']]]
+  ['moving_8',['Moving',['../classMoving.html',1,'']]]
 ];

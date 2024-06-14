@@ -69,7 +69,6 @@ var annotated_dup =
     [ "MenuScene", "classMenuScene.html", null ],
     [ "MenuUI", "classMenuUI.html", null ],
     [ "MissionAccomplishedUI", "classMissionAccomplishedUI.html", null ],
-    [ "MissionFailedUI", "classMissionFailedUI.html", null ],
     [ "Moving", "classMoving.html", null ],
     [ "NemesisManager", "classNemesisManager.html", null ],
     [ "OreRefinery", "classOreRefinery.html", null ],
@@ -98,5 +97,6 @@ var annotated_dup =
     [ "WayPoint", "classWayPoint.html", null ],
     [ "WayPointStructure", "classWayPointStructure.html", null ],
     [ "Weapon", "classWeapon.html", null ],
+    [ "WonUI", "classWonUI.html", null ],
     [ "YAMLReader", "classYAMLReader.html", null ]
 ];
