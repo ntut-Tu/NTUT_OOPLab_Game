@@ -148,14 +148,18 @@ $(document).ready(function(){initNavTree('StructureManager_8hpp_source.html','')
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> m_BuiltStructure;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    std::shared_ptr&lt;MapClass&gt; m_Map = std::make_shared&lt;MapClass&gt;();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::shared_ptr&lt;BuiltStructure&gt; m_BuiltStructure =</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        std::make_shared&lt;BuiltStructure&gt;();</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::shared_ptr&lt;Structure&gt; m_StructSelectingConstructionSite =</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        std::make_shared&lt;Structure&gt;();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#endif </span><span class="comment">// PRACTICALTOOLSFORSIMPLEDESIGN_STRUCTUREMANAGER_HPP</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> setBarrackWayPointByCell(glm::vec2 cell){</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        m_BuiltStructure-&gt;setBarrackWayPointByCell(cell);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    std::shared_ptr&lt;MapClass&gt; m_Map = std::make_shared&lt;MapClass&gt;();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    std::shared_ptr&lt;BuiltStructure&gt; m_BuiltStructure =</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        std::make_shared&lt;BuiltStructure&gt;();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    std::shared_ptr&lt;Structure&gt; m_StructSelectingConstructionSite =</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        std::make_shared&lt;Structure&gt;();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif </span><span class="comment">// PRACTICALTOOLSFORSIMPLEDESIGN_STRUCTUREMANAGER_HPP</span></div>
 <div class="ttc" id="aclassStructureManager_html"><div class="ttname"><a href="classStructureManager.html">StructureManager</a></div><div class="ttdef"><b>Definition:</b> StructureManager.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
