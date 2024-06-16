@@ -27,18 +27,16 @@ var NAVTREE =
   [ "Practical Tools for Simple Design", "index.html", [
     [ "Purpose", "index.html", [
       [ "Goal", "index.html#autotoc_md1", null ],
-      [ "Methodology", "index.html#autotoc_md2", [
-        [ "Packages used", "index.html#autotoc_md3", null ]
-      ] ]
+      [ "Methodology", "index.html#autotoc_md2", null ]
     ] ],
     [ "CLion Quick Start", "md__github_docs_CLionQuickStart_CLionQuickStart.html", null ],
     [ "Code Styles and Guidelines", "md__github_docs_Code_Styles_and_Guidelines.html", [
-      [ "General", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md8", null ],
-      [ "Includes", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md9", null ],
-      [ "Class", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md10", null ],
-      [ "File Types", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md11", null ],
-      [ "File and Folder Naming", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md12", null ],
-      [ "Variable Naming Convention", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md13", null ]
+      [ "General", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md7", null ],
+      [ "Includes", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md8", null ],
+      [ "Class", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md9", null ],
+      [ "File Types", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md10", null ],
+      [ "File and Folder Naming", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md11", null ],
+      [ "Variable Naming Convention", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md12", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -69,8 +67,8 @@ var NAVTREEINDEX =
 [
 "AIGroupCommander_8hpp_source.html",
 "classUtil_1_1BGM.html#a7530f3b399d3911f2923e963683b412c",
-"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a3113243ce62dcdcb4c8f748c2141bdc4",
-"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a35ad2e20e89c2d594067f0f9593397ef"
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a31b5d3b3d0c3b6070227a0a0ed17a113",
+"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a37f09d01e02cf4408c2a541619a0fae0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
